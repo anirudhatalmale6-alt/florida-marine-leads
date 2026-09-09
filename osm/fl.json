@@ -1,0 +1,6697 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-15T15:22:01Z",
+    "timestamp_areas_base": "2026-07-15T15:22:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 588188174,
+  "lat": 27.7400103,
+  "lon": -82.6958172,
+  "tags": {
+    "addr:city": "Gulfport",
+    "addr:country": "US",
+    "addr:postcode": "33711",
+    "addr:state": "FL",
+    "leisure": "marina",
+    "name": "Gulfport Municipal Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1578711243,
+  "lat": 28.9039874,
+  "lon": -82.6409704,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1666444764,
+  "lat": 27.0612458,
+  "lon": -82.0025130,
+  "tags": {
+    "leisure": "marina",
+    "name": "Nav-A-Gator Marina",
+    "old_name": "Desoto Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 1666521165,
+  "lat": 26.9394607,
+  "lon": -82.0515501,
+  "tags": {
+    "leisure": "marina",
+    "name": "Laishley Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1668212384,
+  "lat": 28.6200871,
+  "lon": -80.8088078,
+  "tags": {
+    "leisure": "marina",
+    "name": "Titusville Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1704093768,
+  "lat": 27.8545536,
+  "lon": -81.4114386,
+  "tags": {
+    "leisure": "marina",
+    "name": "Lakeshore Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1768178168,
+  "lat": 27.9892669,
+  "lon": -82.6874995,
+  "tags": {
+    "addr:city": "Safety Harbor",
+    "addr:country": "US",
+    "addr:postcode": "34695",
+    "addr:state": "FL",
+    "addr:street": "Veterans Memorial Ln",
+    "leisure": "marina",
+    "name": "Safety Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1769622295,
+  "lat": 27.9306940,
+  "lon": -82.7296750,
+  "tags": {
+    "addr:city": "Largo",
+    "addr:country": "US",
+    "addr:housenumber": "17389",
+    "addr:postcode": "33760",
+    "addr:state": "FL",
+    "addr:street": "US 19",
+    "craft": "boatbuilder",
+    "name": "Quality Boats",
+    "shop": "boat",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1810734479,
+  "lat": 26.3987146,
+  "lon": -81.8421983,
+  "tags": {
+    "leisure": "marina",
+    "name": "Coconut Point Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 1817980857,
+  "lat": 28.7135391,
+  "lon": -81.4443333,
+  "tags": {
+    "leisure": "marina",
+    "name": "Wekiva Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "source": "local knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 1821778067,
+  "lat": 26.9246379,
+  "lon": -82.0723239,
+  "tags": {
+    "leisure": "marina",
+    "name": "Isles Yacht Club"
+  }
+},
+{
+  "type": "node",
+  "id": 1834811276,
+  "lat": 27.9967230,
+  "lon": -82.5863879,
+  "tags": {
+    "addr:city": "Tampa",
+    "addr:country": "US",
+    "addr:postcode": "33615",
+    "addr:state": "FL",
+    "addr:street": "Rocky Creek Dr",
+    "leisure": "marina",
+    "name": "Piper's Marine",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1884089288,
+  "lat": 28.7851964,
+  "lon": -82.6209702,
+  "tags": {
+    "addr:country": "US",
+    "addr:postcode": "34448",
+    "addr:state": "FL",
+    "addr:street": "S Riverview Cir",
+    "leisure": "marina",
+    "name": "Riverhaven Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1928488392,
+  "lat": 26.4734951,
+  "lon": -81.8513687,
+  "tags": {
+    "leisure": "marina",
+    "name": "Mullock Creek Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 1928559347,
+  "lat": 26.3390025,
+  "lon": -81.8280455,
+  "tags": {
+    "leisure": "marina",
+    "name": "Bonita Bay Marina",
+    "website": "https://www.bonitabaymarina.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 1929852624,
+  "lat": 26.4888517,
+  "lon": -82.0129809,
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "node",
+  "id": 1948059616,
+  "lat": 28.0503864,
+  "lon": -82.7863152,
+  "tags": {
+    "addr:country": "US",
+    "addr:postcode": "34698",
+    "addr:state": "FL",
+    "addr:street": "Causeway Blvd",
+    "leisure": "marina",
+    "name": "Marker 1 Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 1951987506,
+  "lat": 27.7997190,
+  "lon": -82.6101480,
+  "tags": {
+    "addr:city": "Saint Petersburg",
+    "addr:country": "US",
+    "addr:housenumber": "1305",
+    "addr:postcode": "33704",
+    "addr:state": "FL",
+    "addr:street": "Snell Isle Boulevard NE",
+    "leisure": "marina",
+    "name": "Snell Isle Marina",
+    "phone": "+1-727-895-8142",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.spyc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2030817866,
+  "lat": 27.7705916,
+  "lon": -82.7293372,
+  "tags": {
+    "name": "Kayaks",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 2144697314,
+  "lat": 26.5104729,
+  "lon": -82.1890847,
+  "tags": {
+    "leisure": "marina",
+    "name": "Tween Waters Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 2160330791,
+  "lat": 26.5642781,
+  "lon": -81.9184075,
+  "tags": {
+    "leisure": "marina",
+    "name": "Caloosa Yacht & Racquet Club Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 2215632556,
+  "lat": 27.9401270,
+  "lon": -82.4518190,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 2215652465,
+  "lat": 27.9377660,
+  "lon": -82.4553940,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 2326076177,
+  "lat": 29.0372320,
+  "lon": -82.6681070,
+  "tags": {
+    "craft": "boatbuilder",
+    "name": "Young Boats, Inc."
+  }
+},
+{
+  "type": "node",
+  "id": 2346797222,
+  "lat": 27.8039736,
+  "lon": -82.7959026,
+  "tags": {
+    "leisure": "marina",
+    "name": "Madeira Beach Municipal Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 2346847950,
+  "lat": 27.8153949,
+  "lon": -82.7658320,
+  "tags": {
+    "leisure": "marina",
+    "name": "Bay Pines Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 2390747716,
+  "lat": 27.5251018,
+  "lon": -82.6117991,
+  "tags": {
+    "addr:city": "Palmetto",
+    "addr:housenumber": "4307",
+    "addr:postcode": "34211",
+    "addr:street": "Snead Island Road",
+    "leisure": "marina",
+    "name": "Bradenton Yacht Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.bradentonyachtclub.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2807733725,
+  "lat": 26.5428428,
+  "lon": -81.9514457,
+  "tags": {
+    "leisure": "marina",
+    "name": "Cape Coral Yacht Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 2841956238,
+  "lat": 29.2259811,
+  "lon": -81.0228833,
+  "tags": {
+    "addr:city": "Daytona Beach",
+    "addr:housenumber": "721",
+    "addr:postcode": "32114",
+    "addr:street": "Ballough Road",
+    "leisure": "marina",
+    "name": "Loggerhead Marina Daytona Beach",
+    "phone": "+1-386-523-3100",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "www.loggerheaddaytonabeach.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2842015453,
+  "lat": 28.4071344,
+  "lon": -80.6295880,
+  "tags": {
+    "addr:city": "Port Canaveral",
+    "addr:housenumber": "930",
+    "addr:postcode": "32920",
+    "addr:street": "Mullet Road",
+    "leisure": "marina",
+    "name": "Ocean Club Marina Port Canaveral",
+    "phone": "+1-321-783-9001",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://oceanclubmarina-pc.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3058696699,
+  "lat": 24.9504129,
+  "lon": -80.5912068,
+  "tags": {
+    "addr:city": "Islamorada",
+    "addr:housenumber": "85401",
+    "addr:postcode": "33036",
+    "addr:state": "FL",
+    "addr:street": "Overseas Highway",
+    "leisure": "marina",
+    "name": "Snake Creek Marina",
+    "phone": "+1 305-396-7724",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://snakecreekmarinakeys.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3058734957,
+  "lat": 24.9364501,
+  "lon": -80.6121534,
+  "tags": {
+    "leisure": "marina",
+    "name": "Whale Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://whaleharbormarina.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3058734961,
+  "lat": 24.9198675,
+  "lon": -80.6356235,
+  "tags": {
+    "leisure": "marina",
+    "name": "Coral Bay Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://coral-bay-marina.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3058878543,
+  "lat": 24.8827405,
+  "lon": -80.6907395,
+  "tags": {
+    "addr:city": "Islamorada",
+    "addr:housenumber": "77522",
+    "addr:postcode": "33036",
+    "addr:street": "Overseas Highway",
+    "check_date": "2023-12-19",
+    "leisure": "marina",
+    "name": "Robbie's"
+  }
+},
+{
+  "type": "node",
+  "id": 3058878550,
+  "lat": 24.8378436,
+  "lon": -80.7988319,
+  "tags": {
+    "addr:city": "Layton",
+    "addr:housenumber": "69501",
+    "addr:postcode": "33001",
+    "addr:street": "Overseas Highway",
+    "leisure": "marina",
+    "name": "Sea Bird Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 3059042376,
+  "lat": 24.7747609,
+  "lon": -80.9158341,
+  "tags": {
+    "addr:city": "Duck Key",
+    "addr:housenumber": "1149",
+    "addr:postcode": "33050",
+    "addr:state": "FL",
+    "addr:street": "Greenbriar Road",
+    "check_date": "2023-03-18",
+    "email": "BoatStorage@MarinaDuckKey.com",
+    "leisure": "marina",
+    "name": "Duck Key Marina",
+    "phone": "+1-305-289-0161",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://marinaduckkey.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3060410048,
+  "lat": 24.7684309,
+  "lon": -80.9443875,
+  "tags": {
+    "check_date": "2023-03-15",
+    "leisure": "marina",
+    "name": "Grassy Key Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3060410068,
+  "lat": 24.7343614,
+  "lon": -81.0121951,
+  "tags": {
+    "addr:city": "Marathon",
+    "addr:housenumber": "13900",
+    "addr:postcode": "33050",
+    "addr:street": "Overseas Highway",
+    "contact:facebook": "https://www.facebook.com/DriftwoodMarinaKeys/",
+    "leisure": "marina",
+    "name": "Driftwood Marina & Storage",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3060410108,
+  "lat": 24.7299949,
+  "lon": -81.0304125,
+  "tags": {
+    "addr:city": "Marathon",
+    "addr:housenumber": "11833",
+    "addr:postcode": "33050",
+    "addr:state": "FL",
+    "addr:street": "Overseas Highway",
+    "leisure": "marina",
+    "name": "Captain Hook's Marina & Dive Center",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "shop": "scuba_diving",
+    "website": "https://captainhooks.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3060499556,
+  "lat": 24.7091585,
+  "lon": -81.1117446,
+  "tags": {
+    "addr:city": "Marathon",
+    "addr:housenumber": "1248",
+    "addr:postcode": "33050",
+    "addr:state": "FL",
+    "addr:street": "Overseas Highway",
+    "leisure": "marina",
+    "name": "Sea Dog Charters Marina",
+    "phone": "+1-305-743-8255",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://seadogcharters.net"
+  }
+},
+{
+  "type": "node",
+  "id": 3060499557,
+  "lat": 24.7085298,
+  "lon": -81.1115461,
+  "tags": {
+    "leisure": "marina",
+    "name": "Starfish Snorkel",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3060595241,
+  "lat": 24.5743233,
+  "lon": -81.7355179,
+  "tags": {
+    "addr:city": "Key West",
+    "addr:housenumber": "5710",
+    "addr:postcode": "33040",
+    "addr:street": "Overseas Highway",
+    "leisure": "marina",
+    "name": "Murray Marine"
+  }
+},
+{
+  "type": "node",
+  "id": 3060595253,
+  "lat": 24.5709967,
+  "lon": -81.7473010,
+  "tags": {
+    "check_date": "2023-12-16",
+    "leisure": "marina",
+    "name": "Hurricane Hole Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3067857966,
+  "lat": 24.7085536,
+  "lon": -81.1103322,
+  "tags": {
+    "addr:city": "Marathon",
+    "addr:housenumber": "1400",
+    "addr:postcode": "33050",
+    "addr:street": "Overseas Highway",
+    "leisure": "marina",
+    "name": "Spirit Snorkeling"
+  }
+},
+{
+  "type": "node",
+  "id": 3067883937,
+  "lat": 24.5639781,
+  "lon": -81.7270610,
+  "tags": {
+    "leisure": "marina",
+    "name": "Stock Island Yacht Club & Marina - Key West Harbour",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://spottswoodmarinas.com/stock-island-yacht-club/"
+  }
+},
+{
+  "type": "node",
+  "id": 3303179018,
+  "lat": 28.8146801,
+  "lon": -81.2636923,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3303179043,
+  "lat": 28.8149741,
+  "lon": -81.2644187,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3358983501,
+  "lat": 24.8513324,
+  "lon": -80.7377656,
+  "tags": {
+    "addr:city": "Islamorada",
+    "addr:housenumber": "73800",
+    "addr:postcode": "33036",
+    "addr:state": "FL",
+    "addr:street": "Overseas Highway",
+    "description": "private marina",
+    "leisure": "marina",
+    "name": "Scouts BSA Florida Sea Base",
+    "operator": "National High Adventure Florida Sea Base",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3524802010,
+  "lat": 27.8229498,
+  "lon": -82.4845493,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3570489893,
+  "lat": 28.4088512,
+  "lon": -80.6142544,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 3655764080,
+  "lat": 29.1987693,
+  "lon": -81.0553745,
+  "tags": {
+    "addr:city": "Daytona Beach",
+    "addr:housenumber": "1300",
+    "addr:postcode": "32114",
+    "addr:state": "FL",
+    "addr:street": "International Speedway Boulevard",
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "email": "wmCustomerService@westmarine.com",
+    "fax": "+1 831 761 4421",
+    "name": "West Marine",
+    "opening_hours": "Mo-Fr 09:00-19:00, Sa 09:00-18:00, Su 09:00-17:00",
+    "phone": "+1 386 255 2013",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat",
+    "website": "https://www.westmarine.com/stores/daytona-beach-fl-1313"
+  }
+},
+{
+  "type": "node",
+  "id": 3667962117,
+  "lat": 29.5922157,
+  "lon": -82.9654563,
+  "tags": {
+    "addr:city": "Old Town",
+    "addr:full": "26988 SE US Hwy 19",
+    "addr:housenumber": "26988",
+    "addr:postcode": "32680",
+    "addr:state": "FL",
+    "addr:street": "SE Hwy 19",
+    "craft": "boatbuilder",
+    "name": "A & M Manufacturing",
+    "phone": "+1-352-542-7152"
+  }
+},
+{
+  "type": "node",
+  "id": 4184366920,
+  "lat": 27.8105495,
+  "lon": -82.7563041,
+  "tags": {
+    "name": "Endless Seas Boat Sales",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 4184366922,
+  "lat": 27.8118553,
+  "lon": -82.7598111,
+  "tags": {
+    "leisure": "marina",
+    "name": "Lighthouse Point Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 4202762203,
+  "lat": 28.4170103,
+  "lon": -80.6239972,
+  "tags": {
+    "leisure": "marina",
+    "name": "SpaceX Barge Dock",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 4733394326,
+  "lat": 29.2852950,
+  "lon": -81.0545190,
+  "tags": {
+    "leisure": "marina",
+    "name": "Cassen Park Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 4744964936,
+  "lat": 29.7230508,
+  "lon": -84.9823741,
+  "tags": {
+    "fax": "+1-850-653-2205",
+    "leisure": "marina",
+    "maxlength": "50 ft",
+    "name": "Battery Park Marina",
+    "phone": "+1-850-653-9319",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 4814486457,
+  "lat": 25.9540211,
+  "lon": -81.7226825,
+  "tags": {
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 5104474553,
+  "lat": 24.6580266,
+  "lon": -81.5056317,
+  "tags": {
+    "leisure": "marina",
+    "name": "Cudjoe Gardens Marina And Dive Center",
+    "sport": "scuba_diving"
+  }
+},
+{
+  "type": "node",
+  "id": 5482408657,
+  "lat": 25.9568533,
+  "lon": -81.7217535,
+  "tags": {
+    "contact:website": "http://www.walkersmarine.com/",
+    "leisure": "marina",
+    "name": "Walker's Hideaway Marina of Marco Island",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 5524144554,
+  "lat": 26.0791465,
+  "lon": -81.7234218,
+  "tags": {
+    "contact:website": "https://www.naplesmarina.com/",
+    "name": "Naples Marina Sales",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 5563398749,
+  "lat": 26.5385857,
+  "lon": -81.9203657,
+  "tags": {
+    "name": "MarineMax Fort Myers",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 5565776035,
+  "lat": 26.5029342,
+  "lon": -81.9440818,
+  "tags": {
+    "name": "The Boat Place",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 5565776036,
+  "lat": 26.5070699,
+  "lon": -81.9430706,
+  "tags": {
+    "contact:website": "http://walkersmarine.com/",
+    "name": "Walker's Yacht Sales",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 5930370144,
+  "lat": 27.2201456,
+  "lon": -82.5143547,
+  "tags": {
+    "leisure": "marina",
+    "name": "Bayfront Marina (Turtle Beach Marina)",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 6382499468,
+  "lat": 27.3083045,
+  "lon": -81.3593870,
+  "tags": {
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 6417384864,
+  "lat": 26.2829502,
+  "lon": -81.8022954,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "12345",
+    "addr:postcode": "34110",
+    "addr:state": "FL",
+    "addr:street": "Tamiami Trail N",
+    "leisure": "marina",
+    "name": "All Water Excursions Marina",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:discover_card": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-239-594-0213",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://allwaterexcursionsmarina.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6558595808,
+  "lat": 28.4075422,
+  "lon": -80.6274505,
+  "tags": {
+    "addr:city": "Cape Canaveral",
+    "addr:housenumber": "800",
+    "addr:postcode": "32920",
+    "addr:state": "FL",
+    "addr:street": "Scallop Drive",
+    "capacity": "300",
+    "leisure": "marina",
+    "name": "Cape Marina",
+    "power_supply": "no",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 6601740403,
+  "lat": 27.8140723,
+  "lon": -82.7682012,
+  "tags": {
+    "name": "Bay Pines Marina",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 6685567336,
+  "lat": 29.2041299,
+  "lon": -81.0125605,
+  "tags": {
+    "leisure": "marina",
+    "name": "Halifax Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 6691074732,
+  "lat": 26.8995378,
+  "lon": -82.0167855,
+  "tags": {
+    "addr:city": "Punta Gorda",
+    "addr:housenumber": "4225",
+    "addr:postcode": "33950",
+    "addr:state": "FL",
+    "addr:street": "Taylor Road",
+    "craft": "boatbuilder",
+    "name": "Crystal Cay Building & Marine, Inc.",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+1-941-639-6603",
+    "website": "https://crystalcay.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6722615124,
+  "lat": 24.9223041,
+  "lon": -80.6308461,
+  "tags": {
+    "addr:housenumber": "81984",
+    "addr:street": "overseas highway",
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "name": "West Marine",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 6751933958,
+  "lat": 26.1610691,
+  "lon": -81.7662084,
+  "tags": {
+    "name": "Naples Boat Mart",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 6804503364,
+  "lat": 26.4125823,
+  "lon": -81.8993332,
+  "tags": {
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 6825833819,
+  "lat": 28.4207481,
+  "lon": -81.6230645,
+  "tags": {
+    "leisure": "marina",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7029227637,
+  "lat": 28.4072204,
+  "lon": -80.7072541,
+  "tags": {
+    "capacity": "32",
+    "leisure": "marina",
+    "name": "Cape Crossing Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 7044384283,
+  "lat": 28.8934984,
+  "lon": -82.5843792,
+  "tags": {
+    "name": "LTD Motors Auto, RV, & Marine Center",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 7107428774,
+  "lat": 26.5391764,
+  "lon": -81.9998993,
+  "tags": {
+    "capacity": "216",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Tarpon Point Marina",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 7120744951,
+  "lat": 26.1979370,
+  "lon": -81.8123155,
+  "tags": {
+    "leisure": "marina",
+    "name": "Park Shore Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 7157067330,
+  "lat": 27.7252832,
+  "lon": -82.4698544,
+  "tags": {
+    "leisure": "marina",
+    "name": "Little Harbor Marina"
+  }
+},
+{
+  "type": "node",
+  "id": 7343561418,
+  "lat": 28.0049773,
+  "lon": -80.5651931,
+  "tags": {
+    "name": "Route 1 Motorsports",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 8003910675,
+  "lat": 24.5725213,
+  "lon": -81.7231822,
+  "tags": {
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 8229459274,
+  "lat": 26.1715817,
+  "lon": -81.8007427,
+  "tags": {
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 8461474099,
+  "lat": 27.1120168,
+  "lon": -82.4639798,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 8499225849,
+  "lat": 26.6439102,
+  "lon": -81.9958193,
+  "tags": {
+    "name": "Boaters Paradise",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 8922500078,
+  "lat": 24.7062565,
+  "lon": -81.1082023,
+  "tags": {
+    "addr:city": "Marathon",
+    "addr:housenumber": "890",
+    "addr:postcode": "33050",
+    "addr:state": "FL",
+    "addr:street": "15th Street Ocean",
+    "leisure": "marina",
+    "name": "15th Street Marina Marathon (at Boot Key Harbor)",
+    "phone": "+1-305-393-0383",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.bootkeymarina.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8922857152,
+  "lat": 24.7779182,
+  "lon": -80.9131337,
+  "tags": {
+    "check_date": "2023-03-18",
+    "leisure": "marina",
+    "name": "Hawks Cay Resort Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.hawkscay.com/amenities/hawks-cay-marina"
+  }
+},
+{
+  "type": "node",
+  "id": 8923525769,
+  "lat": 28.8152829,
+  "lon": -81.2675583,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 8923525779,
+  "lat": 28.8146785,
+  "lon": -81.2654740,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 8928599380,
+  "lat": 24.7169478,
+  "lon": -81.0845031,
+  "tags": {
+    "leisure": "marina",
+    "name": "Banana Bay Resort & Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.bhotelsandresorts.com/banana-bay/"
+  }
+},
+{
+  "type": "node",
+  "id": 8928610265,
+  "lat": 24.7159004,
+  "lon": -81.0908627,
+  "tags": {
+    "addr:housenumber": "3800",
+    "addr:postcode": "33050",
+    "addr:state": "FL",
+    "addr:street": "Gulfview Avenue",
+    "email": "concierge@marlinbay.com",
+    "leisure": "marina",
+    "name": "Marlin Bay Resort & Marina",
+    "phone": "+1-305-731-2207",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.marlinbay.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8928642214,
+  "lat": 24.7169137,
+  "lon": -81.0829727,
+  "tags": {
+    "leisure": "marina",
+    "name": "Blackfin Resort and Marina",
+    "phone": "+1-305-743-2393",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.blackfinresort.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8928678682,
+  "lat": 24.8491927,
+  "lon": -80.7377951,
+  "tags": {
+    "contact:facebook": "CaloosaCoveMarina",
+    "leisure": "marina",
+    "name": "Caloosa Cove Resort & Marina",
+    "phone": "+1-305-664-4455",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://caloosacove.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8934027328,
+  "lat": 28.8152803,
+  "lon": -81.2677706,
+  "tags": {
+    "fee": "no",
+    "leisure": "marina",
+    "name": "Free Marina Day Slips",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.sanfordfl.gov/residents/marina-day-slips-1500"
+  }
+},
+{
+  "type": "node",
+  "id": 9345106335,
+  "lat": 28.1492468,
+  "lon": -80.6042632,
+  "tags": {
+    "addr:city": "Indian Harbour Beach",
+    "addr:housenumber": "1399",
+    "addr:postcode": "32937",
+    "addr:state": "FL",
+    "addr:street": "Banana River Drive",
+    "leisure": "marina",
+    "name": "Telemar Bay Marina",
+    "phone": "+1-321-773-2468",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://telemarbaymarina.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9407861916,
+  "lat": 26.1414336,
+  "lon": -81.8000192,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "525",
+    "addr:postcode": "34102",
+    "addr:state": "FL",
+    "addr:street": "5th Avenue South",
+    "branch": "Yachts",
+    "brand": "MarineMax",
+    "brand:wikidata": "Q119140995",
+    "name": "MarineMax",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "phone": "+1-239-963-8108",
+    "shop": "boat",
+    "website": "https://www.marinemax.com/stores/yachts-and-charter"
+  }
+},
+{
+  "type": "node",
+  "id": 9407924119,
+  "lat": 26.1414510,
+  "lon": -81.7998456,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "535",
+    "addr:postcode": "34102",
+    "addr:state": "FL",
+    "addr:street": "5th Avenue South",
+    "name": "Hinckley Yachts",
+    "phone": "+1-239-300-4995",
+    "shop": "boat",
+    "website": "https://www.hinckleyyachts.com/contact/sales/"
+  }
+},
+{
+  "type": "node",
+  "id": 10537180498,
+  "lat": 29.5579878,
+  "lon": -81.2119840,
+  "tags": {
+    "brand": "West Marine",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 10670157340,
+  "lat": 27.9393175,
+  "lon": -82.4546185,
+  "tags": {
+    "capacity": "100",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Pointe Marina",
+    "operator": "The Pointe Marina",
+    "payment:credit_cards": "yes",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 10747621566,
+  "lat": 26.6441944,
+  "lon": -81.9960597,
+  "tags": {
+    "addr:city": "Cape Coral",
+    "addr:housenumber": "1037",
+    "addr:postcode": "33991",
+    "addr:state": "FL",
+    "addr:street": "Southwest Pine Island Road",
+    "name": "WMF Watercraft & Marine",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:cheque": "yes",
+    "payment:discover_card": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+1-239-573-6256",
+    "shop": "boat",
+    "website": "https://www.wmfwatercraft.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11486939216,
+  "lat": 27.1461492,
+  "lon": -82.4043859,
+  "tags": {
+    "addr:city": "Venice",
+    "addr:housenumber": "111",
+    "addr:postcode": "34275",
+    "addr:state": "FL",
+    "addr:street": "Triple Diamond Boulevard",
+    "name": "PartsVu",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+1-888-625-5460",
+    "shop": "boat",
+    "website": "https://www.partsvu.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11743403700,
+  "lat": 26.5131936,
+  "lon": -81.8647480,
+  "tags": {
+    "addr:city": "Fort Myers",
+    "addr:housenumber": "15650",
+    "addr:postcode": "33908",
+    "addr:state": "FL",
+    "addr:street": "S Tamiami Trail",
+    "name": "Pier 41 Marine",
+    "opening_hours": "Mo-Fr 08:00-17:00, Sa 09:00-13:00; Su off",
+    "phone": "+1-239-790-5797",
+    "shop": "boat",
+    "website": "https://www.pier41marine.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11813178785,
+  "lat": 28.8948545,
+  "lon": -82.5974680,
+  "tags": {
+    "leisure": "marina",
+    "name": "Pete's Pier Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.petespier.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11942544569,
+  "lat": 28.1644083,
+  "lon": -82.7738601,
+  "tags": {
+    "leisure": "marina",
+    "sanitary_dump_station": "customers"
+  }
+},
+{
+  "type": "node",
+  "id": 12508625509,
+  "lat": 25.9880031,
+  "lon": -81.5935385,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina_no_facilities",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 12508625510,
+  "lat": 25.9879927,
+  "lon": -81.5932405,
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina_no_facilities",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 12641867668,
+  "lat": 26.4899551,
+  "lon": -81.9307834,
+  "tags": {
+    "addr:city": "Fort Myers",
+    "addr:housenumber": "10821",
+    "addr:postcode": "33908",
+    "addr:state": "FL",
+    "addr:street": "Sunset Plaza Circle",
+    "addr:unit": "301",
+    "boat:parts": "yes",
+    "boat:repair": "yes",
+    "boat:type": "motorboat",
+    "check_date": "2025-03-06",
+    "description": "Miley’s Diesel Service is a full service Caterpillar Authorized Marine Parts and Service Dealer.",
+    "level": "0",
+    "name": "Miley's Diesel Service, Inc.",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "phone": "+1-239-728-2217",
+    "shop": "boat",
+    "website": "https://www.mileysdiesel.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12695091584,
+  "lat": 28.8937740,
+  "lon": -82.5865769,
+  "tags": {
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 12750666121,
+  "lat": 26.9665132,
+  "lon": -82.0793925,
+  "tags": {
+    "addr:city": "Port Charlotte",
+    "addr:housenumber": "4265",
+    "addr:postcode": "33980",
+    "addr:state": "FL",
+    "addr:street": "Tamiami Trail",
+    "addr:unit": "M",
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "name": "West Marine",
+    "opening_hours": "Mo-Sa 09:00-18:00; Su 09:00-17:00",
+    "phone": "+1-941-625-2700",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat",
+    "website": "https://www.westmarine.com/stores/port-charlotte-fl-155/"
+  }
+},
+{
+  "type": "node",
+  "id": 13230505773,
+  "lat": 26.1401217,
+  "lon": -81.7918785,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "1100",
+    "addr:postcode": "34102",
+    "addr:state": "FL",
+    "addr:street": "6th Avenue South",
+    "addr:unit": "Unit 214",
+    "level": "1",
+    "name": "Capstan Yachts",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 13333909077,
+  "lat": 28.1558516,
+  "lon": -82.7579354,
+  "tags": {
+    "leisure": "marina",
+    "name": "Tarpon Springs City Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "node",
+  "id": 13344455911,
+  "lat": 24.5636631,
+  "lon": -81.7300407,
+  "tags": {
+    "addr:city": "Key West",
+    "addr:housenumber": "5950",
+    "addr:postcode": "33040",
+    "addr:state": "FL",
+    "addr:street": "Peninsular Avenue",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=61558712709350",
+    "email": "CasualMondayCharters@gmail.com",
+    "name": "Casual Monday Charters",
+    "opening_hours": "24/7",
+    "phone": "+1-305-988-1179",
+    "shop": "boat",
+    "website": "https://casualmondaycharters.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13411413245,
+  "lat": 26.9174485,
+  "lon": -82.3090515,
+  "tags": {
+    "addr:city": "Englewood",
+    "addr:housenumber": "2751",
+    "addr:postcode": "34224",
+    "addr:state": "FL",
+    "addr:street": "Avenue of the America",
+    "check_date": "2025-12-27",
+    "currency:XBT": "yes",
+    "name": "Allwater Marine",
+    "opening_hours": "Mo-Fr 08:00-17:00; Sa 09:00-14:00",
+    "payment:lightning": "yes",
+    "payment:lightning:operator": "square",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "phone": "+1-941-555-0198",
+    "shop": "boat",
+    "website": "https://allwatermarine.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13423206895,
+  "lat": 28.7662459,
+  "lon": -81.7514748,
+  "tags": {
+    "craft": "boatbuilder",
+    "name": "Trident Pontoons"
+  }
+},
+{
+  "type": "node",
+  "id": 13485359875,
+  "lat": 26.1409689,
+  "lon": -81.7912190,
+  "tags": {
+    "brand": "MarineMax",
+    "brand:wikidata": "Q119140995",
+    "name": "MarineMax",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 13622978100,
+  "lat": 26.9315316,
+  "lon": -82.3371595,
+  "tags": {
+    "addr:city": "Englewood",
+    "addr:housenumber": "1990",
+    "addr:postcode": "34223",
+    "addr:state": "FL",
+    "addr:street": "Placida Road",
+    "check_date": "2026-03-06",
+    "contact:email": "skipsbaitandtackle@yahoo.com",
+    "contact:facebook": "https://www.facebook.com/SkipsMarina",
+    "currency:XBT": "yes",
+    "name": "Skip's Marina",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "payment:lightning": "yes",
+    "payment:lightning:operator": "square",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "phone": "+1-941-777-4727",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 13713863641,
+  "lat": 26.1474355,
+  "lon": -81.7931086,
+  "tags": {
+    "name": "Formula Boats",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 13740317686,
+  "lat": 28.3468676,
+  "lon": -82.7005723,
+  "tags": {
+    "addr:city": "Hudson",
+    "addr:housenumber": "6841",
+    "addr:postcode": "34667",
+    "addr:state": "FL",
+    "addr:street": "Amberjack Lane",
+    "check_date": "2026-04-18",
+    "contact:email": "pinnedupperformance@gmail.com",
+    "contact:facebook": "https://www.facebook.com/pinnedupperformance",
+    "contact:instagram": "https://www.instagram.com/pinned_up_performance_",
+    "currency:XBT": "yes",
+    "name": "Pinned Up Performance",
+    "opening_hours": "Mo-Fr 09:30-18:30",
+    "payment:lightning": "yes",
+    "payment:lightning:operator": "square",
+    "payment:lightning_contactless": "no",
+    "payment:onchain": "no",
+    "phone": "+1-727-717-3401",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 13931285591,
+  "lat": 26.1375005,
+  "lon": -81.7918287,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "909",
+    "addr:postcode": "34102",
+    "addr:state": "FL",
+    "addr:street": "10th Street South",
+    "addr:unit": "102",
+    "name": "Allied Marine",
+    "phone": "+1-239-262-6500",
+    "shop": "boat",
+    "website": "https://www.alliedmarine.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13931285592,
+  "lat": 26.1375230,
+  "lon": -81.7916480,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "909",
+    "addr:postcode": "34102",
+    "addr:state": "FL",
+    "addr:street": "10th Street South",
+    "addr:unit": "103",
+    "name": "Formula Boats",
+    "phone": "+1-239-331-2104",
+    "shop": "boat",
+    "website": "http://www.formulaboatssouth.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13931285593,
+  "lat": 26.1377551,
+  "lon": -81.7923362,
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "895",
+    "addr:postcode": "34102",
+    "addr:state": "FL",
+    "addr:street": "10th Street South",
+    "addr:unit": "101",
+    "name": "Germain Yachts Center",
+    "phone": "+1-239-262-2628",
+    "shop": "boat",
+    "website": "https://www.germainyachts.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 14001331630,
+  "lat": 26.1387398,
+  "lon": -81.7695050,
+  "tags": {
+    "name": "Walker's Marine",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 14001331633,
+  "lat": 26.1388697,
+  "lon": -81.7713398,
+  "tags": {
+    "name": "World Cat",
+    "shop": "boat"
+  }
+},
+{
+  "type": "node",
+  "id": 14001331662,
+  "lat": 26.1387893,
+  "lon": -81.7737369,
+  "tags": {
+    "name": "Boat House",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 28937844,
+  "center": {
+    "lat": 27.9083573,
+    "lon": -82.4499825
+  },
+  "tags": {
+    "addr:city": "Tampa",
+    "addr:country": "US",
+    "addr:housenumber": "1315",
+    "addr:postcode": "33606",
+    "addr:state": "FL",
+    "addr:street": "Severn Avenue",
+    "leisure": "marina",
+    "name": "Davis Islands Yacht Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.diyc.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 44640690,
+  "center": {
+    "lat": 27.9360485,
+    "lon": -82.7289235
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 77487730,
+  "center": {
+    "lat": 28.1784464,
+    "lon": -80.6493718
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 83579780,
+  "center": {
+    "lat": 24.5619147,
+    "lon": -81.8016413
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Key West Bight Marina",
+    "operator": "City of Key West",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.keywestbightmarina.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 114585877,
+  "center": {
+    "lat": 28.1258262,
+    "lon": -80.6274617
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Eau Gallie Yacht Basin",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 140464923,
+  "center": {
+    "lat": 27.3331767,
+    "lon": -82.5460533
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 141130579,
+  "center": {
+    "lat": 28.4520920,
+    "lon": -81.4616428
+  },
+  "tags": {
+    "addr:city": "Orlando",
+    "addr:housenumber": "5980",
+    "addr:state": "FL",
+    "addr:street": "Lakehurst Drive",
+    "building": "yes",
+    "name": "Dealer's Choice",
+    "shop": "boat",
+    "source:addr:housenumber": "Orange County GIS data",
+    "storage": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 149509334,
+  "center": {
+    "lat": 28.7852478,
+    "lon": -82.6209689
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "marina",
+    "name": "Riverhaven",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 155298206,
+  "center": {
+    "lat": 28.2138207,
+    "lon": -80.6128889
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 158052908,
+  "center": {
+    "lat": 28.9950347,
+    "lon": -81.3673385
+  },
+  "tags": {
+    "addr:housenumber": "2760",
+    "addr:postcode": "32720",
+    "addr:street": "Botts Landing Road",
+    "leisure": "marina",
+    "name": "Riviera Resort and Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "source": "bing",
+    "website": "http://www.rivieraresort.net/"
+  }
+},
+{
+  "type": "way",
+  "id": 174953456,
+  "center": {
+    "lat": 27.7136989,
+    "lon": -82.6779452
+  },
+  "tags": {
+    "addr:city": "Saint Petersburg",
+    "addr:housenumber": "5821",
+    "addr:postcode": "33712",
+    "addr:state": "FL",
+    "addr:street": "32nd Way South",
+    "leisure": "marina",
+    "name": "Loggerhead Marina Saint Pete",
+    "phone": "+1-727-867-2600",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://loggerheadmarina.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 177480246,
+  "center": {
+    "lat": 26.5169042,
+    "lon": -81.9991945
+  },
+  "tags": {
+    "fee": "no",
+    "leisure": "marina",
+    "man_made": "pier",
+    "name": "Shell Point Marina",
+    "operator": "Shell Point Retirement Community",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 180717971,
+  "center": {
+    "lat": 26.6627372,
+    "lon": -82.1535357
+  },
+  "tags": {
+    "building": "commercial",
+    "leisure": "marina",
+    "name": "Pineland Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 181000281,
+  "center": {
+    "lat": 28.5549153,
+    "lon": -80.7954403
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 181768745,
+  "center": {
+    "lat": 26.5278570,
+    "lon": -82.1900297
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 181768751,
+  "center": {
+    "lat": 26.5275775,
+    "lon": -82.1900074
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 192559258,
+  "center": {
+    "lat": 27.8176565,
+    "lon": -82.7677560
+  },
+  "tags": {
+    "building": "yes",
+    "height": "16.5600000000",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 214809621,
+  "center": {
+    "lat": 26.5438059,
+    "lon": -81.9508199
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 217914135,
+  "center": {
+    "lat": 27.8945834,
+    "lon": -82.7319894
+  },
+  "tags": {
+    "addr:city": "Largo",
+    "addr:country": "US",
+    "addr:housenumber": "6789",
+    "addr:postcode": "33771",
+    "addr:state": "FL",
+    "addr:street": "Ulmerton Road",
+    "building": "yes",
+    "name": "Mitchell Marine",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 226879742,
+  "center": {
+    "lat": 27.7717283,
+    "lon": -82.6279038
+  },
+  "tags": {
+    "height": "15.5",
+    "leisure": "marina",
+    "name": "St. Petersburg Municipal Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 231594757,
+  "center": {
+    "lat": 27.7846277,
+    "lon": -82.7823164
+  },
+  "tags": {
+    "building": "yes",
+    "height": "15.73",
+    "leisure": "marina",
+    "name": "Hubbards Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 243780501,
+  "center": {
+    "lat": 27.7564542,
+    "lon": -82.7373941
+  },
+  "tags": {
+    "addr:housenumber": "1301",
+    "addr:street": "Pasadena Avenue South",
+    "building": "yes",
+    "height": "10.35",
+    "name": "Jet-Ski Repair",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 274097975,
+  "center": {
+    "lat": 27.8394723,
+    "lon": -82.7332575
+  },
+  "tags": {
+    "addr:city": "Pinellas Park",
+    "addr:housenumber": "6869",
+    "addr:street": "Park Boulevard",
+    "building": "yes",
+    "height": "9.97",
+    "name": "Madiera Marine Sales",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 280373609,
+  "center": {
+    "lat": 27.7649415,
+    "lon": -82.6800367
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Saint Pete Powersports",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 280618826,
+  "center": {
+    "lat": 27.8494942,
+    "lon": -82.7875314
+  },
+  "tags": {
+    "addr:city": "Seminole",
+    "addr:housenumber": "8478",
+    "addr:postcode": "33772",
+    "addr:state": "FL",
+    "addr:street": "Seminole Boulevard",
+    "building": "yes",
+    "height": "13.48",
+    "landuse": "industrial",
+    "name": "Tampa Bay Marine Center",
+    "shop": "boat",
+    "source": "website;local knowledge",
+    "website": "www.TBmarinecenter.com"
+  }
+},
+{
+  "type": "way",
+  "id": 293082546,
+  "center": {
+    "lat": 28.3863802,
+    "lon": -81.5363655
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 293250542,
+  "center": {
+    "lat": 28.4131395,
+    "lon": -81.5618635
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Fort Wilderness Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 295164413,
+  "center": {
+    "lat": 28.3693258,
+    "lon": -81.5581119
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Bayside Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 302535565,
+  "center": {
+    "lat": 24.7086124,
+    "lon": -81.1035697
+  },
+  "tags": {
+    "addr:city": "Marathon",
+    "addr:housenumber": "2109",
+    "addr:postcode": "33050",
+    "addr:street": "Overseas Highway",
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "building": "retail",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 323507973,
+  "center": {
+    "lat": 24.6570071,
+    "lon": -81.2783212
+  },
+  "tags": {
+    "capacity": "19",
+    "charge": "2 USD / 1 foot",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Bahia Honda Marina",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 324084294,
+  "center": {
+    "lat": 26.6284878,
+    "lon": -81.9172576
+  },
+  "tags": {
+    "addr:city": "Cape Coral",
+    "addr:housenumber": "3900",
+    "addr:postcode": "33909",
+    "addr:state": "FL",
+    "addr:street": "Orange Grove Boulevard",
+    "leisure": "marina",
+    "name": "Paradise Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 332416418,
+  "center": {
+    "lat": 29.7226815,
+    "lon": -84.9817982
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Foot Hole Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 333319325,
+  "center": {
+    "lat": 29.7640511,
+    "lon": -85.4022291
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 333629430,
+  "center": {
+    "lat": 29.6691195,
+    "lon": -81.2150376
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Marineland Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 338561850,
+  "center": {
+    "lat": 29.7478029,
+    "lon": -85.3039706
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 340302977,
+  "center": {
+    "lat": 26.6476634,
+    "lon": -81.8693038
+  },
+  "tags": {
+    "deep_draft": "yes",
+    "depth": "8 ft",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "City of Fort Myers Yacht Basin",
+    "phone": "+1-239-321-7080",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 344805079,
+  "center": {
+    "lat": 28.4093956,
+    "lon": -81.5702804
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Wilderness Lodge Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 344907369,
+  "center": {
+    "lat": 28.4152770,
+    "lon": -81.5730133
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Contemporary Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 393920873,
+  "center": {
+    "lat": 28.2591138,
+    "lon": -81.2821855
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 396013568,
+  "center": {
+    "lat": 24.9155738,
+    "lon": -80.6401628
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Bayside Marina",
+    "operator": "World Wide Sportsman",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://stores.basspro.com/us/fl/islamorada/81576-overseas-highway-22264191.html"
+  }
+},
+{
+  "type": "way",
+  "id": 399299551,
+  "center": {
+    "lat": 29.0916495,
+    "lon": -80.9387579
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Inlet Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 399302391,
+  "center": {
+    "lat": 29.0823409,
+    "lon": -80.9351178
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Sea Love Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 399304728,
+  "center": {
+    "lat": 29.0791517,
+    "lon": -80.9272674
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Lighthouse Boatyard",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 415309284,
+  "center": {
+    "lat": 24.5631903,
+    "lon": -81.7298505
+  },
+  "tags": {
+    "addr:city": "Key West",
+    "addr:housenumber": "5950",
+    "addr:postcode": "33040",
+    "addr:state": "FL",
+    "addr:street": "Peninsular Avenue",
+    "capacity": "96",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Oceans Edge Resort & Marina Key West",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.oceansedgekeywest.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 459799445,
+  "center": {
+    "lat": 27.8125287,
+    "lon": -81.3842807
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 470702435,
+  "center": {
+    "lat": 27.8853462,
+    "lon": -82.5341290
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 473381996,
+  "center": {
+    "lat": 27.7133521,
+    "lon": -82.6830300
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Waterfront",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 473381997,
+  "center": {
+    "lat": 27.7074959,
+    "lon": -82.6805545
+  },
+  "tags": {
+    "addr:city": "Saint Petersburg",
+    "addr:country": "US",
+    "addr:housenumber": "6701",
+    "addr:postcode": "33711",
+    "addr:state": "FL",
+    "addr:street": "Sunshine Skyway Lane South",
+    "leisure": "marina",
+    "name": "O'Neil's Marina",
+    "phone": "+1-727-867-2585",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 488741075,
+  "center": {
+    "lat": 29.1320088,
+    "lon": -80.9618291
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Adventure Yacht Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 488742478,
+  "center": {
+    "lat": 29.1017500,
+    "lon": -80.9470981
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Harbour Village Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 489168014,
+  "center": {
+    "lat": 29.0321076,
+    "lon": -80.9136961
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "New Smyrna Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 491817978,
+  "center": {
+    "lat": 28.0165888,
+    "lon": -80.5673637
+  },
+  "tags": {
+    "leisure": "marina",
+    "natural": "water",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 493012663,
+  "center": {
+    "lat": 27.4202866,
+    "lon": -82.5859080
+  },
+  "tags": {
+    "addr:city": "Bradenton",
+    "addr:housenumber": "6919",
+    "addr:postcode": "34207",
+    "addr:state": "FL",
+    "addr:street": "26th Street West",
+    "capacity": "127",
+    "internet_access": "no",
+    "landuse": "recreation_ground",
+    "leisure": "marina",
+    "name": "Marina @ Bayshore Gardens",
+    "operator": "BAYSHORE GARDENS PARK & RECREATION DISTRICT",
+    "power_supply": "no",
+    "sanitary_dump_station": "no",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 493297685,
+  "center": {
+    "lat": 25.9735395,
+    "lon": -81.7288133
+  },
+  "tags": {
+    "leisure": "marina",
+    "natural": "water",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 493483962,
+  "center": {
+    "lat": 24.6971725,
+    "lon": -81.3482461
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Old Wooden Bridge Guest Cottages & Marina LLC",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 494897410,
+  "center": {
+    "lat": 25.9609741,
+    "lon": -81.7127150
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Marco Island Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 494903704,
+  "center": {
+    "lat": 24.6726077,
+    "lon": -81.2484539
+  },
+  "tags": {
+    "check_date": "2023-03-17",
+    "leisure": "marina",
+    "name": "Sunshine Key Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "http://www.rvonthego.com/florida/sunshine-key-rv-resort-marina/?utm_source=yext&utm_medium=directory&utm_campaign=Yext%20Directory%20Listing"
+  }
+},
+{
+  "type": "way",
+  "id": 495984054,
+  "center": {
+    "lat": 27.5099673,
+    "lon": -82.5756067
+  },
+  "tags": {
+    "leisure": "marina",
+    "man_made": "pier",
+    "material": "wood",
+    "name": "Regatta Pointe Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 496739743,
+  "center": {
+    "lat": 27.5000799,
+    "lon": -82.5732790
+  },
+  "tags": {
+    "capacity": "225",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Twin Dolphin Marina",
+    "power_supply": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 523224923,
+  "center": {
+    "lat": 28.0124558,
+    "lon": -82.7922848
+  },
+  "tags": {
+    "building": "yes",
+    "height": "13.36",
+    "leisure": "marina",
+    "name": "Municipal Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.dunedingov.com/index.aspx?page=151"
+  }
+},
+{
+  "type": "way",
+  "id": 523951593,
+  "center": {
+    "lat": 26.1379673,
+    "lon": -81.7789323
+  },
+  "tags": {
+    "addr:city": "Naples",
+    "addr:housenumber": "2072",
+    "addr:postcode": "34104",
+    "addr:state": "FL",
+    "addr:street": "Davis Boulevard",
+    "building": "yes",
+    "craft": "boatbuilder",
+    "name": "Sandy Hook Yachts"
+  }
+},
+{
+  "type": "way",
+  "id": 524314469,
+  "center": {
+    "lat": 27.9525568,
+    "lon": -82.5079927
+  },
+  "tags": {
+    "addr:city": "Tampa",
+    "addr:country": "US",
+    "addr:housenumber": "3905",
+    "addr:postcode": "33607",
+    "addr:state": "FL",
+    "addr:street": "West Cypress Street",
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "building": "commercial",
+    "height": "13.58",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 547760369,
+  "center": {
+    "lat": 27.4932139,
+    "lon": -82.4936238
+  },
+  "tags": {
+    "addr:city": "Bradenton",
+    "addr:housenumber": "5412",
+    "addr:postcode": "34208",
+    "addr:state": "FL",
+    "addr:street": "State Road 64 E",
+    "building": "yes",
+    "name": "Boater's World",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 554136119,
+  "center": {
+    "lat": 26.5925616,
+    "lon": -82.1252474
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 560095901,
+  "center": {
+    "lat": 28.7978961,
+    "lon": -81.6473463
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 560378213,
+  "center": {
+    "lat": 28.8046919,
+    "lon": -81.8716146
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "marina",
+    "name": "Venetian Cove Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 563870726,
+  "center": {
+    "lat": 27.7723339,
+    "lon": -82.6313581
+  },
+  "tags": {
+    "height": "18.95",
+    "layer": "1",
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 578705041,
+  "center": {
+    "lat": 28.4247020,
+    "lon": -81.5736382
+  },
+  "tags": {
+    "addr:city": "Bay Lake",
+    "addr:housenumber": "1280",
+    "addr:postcode": "32836",
+    "addr:state": "FL",
+    "addr:street": "Facilities Way",
+    "description": "Disney's Private Watercraft Facilities. Not open to the Public.",
+    "leisure": "marina",
+    "name": "Walt Disney World Watercraft Marina & Drydock",
+    "operator": "Walt Disney World",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 589379803,
+  "center": {
+    "lat": 24.7097864,
+    "lon": -81.0914190
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Boot Key Harbor Marathon City Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 609719332,
+  "center": {
+    "lat": 27.7243732,
+    "lon": -82.6823903
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Maximo Marina - Saint Petersburg/Tampa",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "http://www.igy-maximomarina.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 613014422,
+  "center": {
+    "lat": 26.4136773,
+    "lon": -81.8992028
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Santina Marina Plaza",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 621352343,
+  "center": {
+    "lat": 26.9396338,
+    "lon": -82.0516367
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Laishley Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 622927495,
+  "center": {
+    "lat": 26.9293387,
+    "lon": -82.0639131
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Fisherman's Village Yacht Basin",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 628714067,
+  "center": {
+    "lat": 26.8886769,
+    "lon": -82.0537200
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Riviera Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 636364061,
+  "center": {
+    "lat": 29.7361464,
+    "lon": -84.8979598
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 644621074,
+  "center": {
+    "lat": 27.5273013,
+    "lon": -82.7215854
+  },
+  "tags": {
+    "addr:city": "Anna Maria",
+    "addr:housenumber": "900",
+    "addr:postcode": "34216",
+    "addr:state": "FL",
+    "addr:street": "South Bay Boulevard",
+    "brand": "Viking Yachts;Valhalla BoatWorks;Princess Yachts;Prestige Yachts;Cruisers Yachts",
+    "building": "retail",
+    "name": "Galati Yacht Sales",
+    "phone": "+1-941-778-0755",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 673173186,
+  "center": {
+    "lat": 27.1054460,
+    "lon": -82.4611904
+  },
+  "tags": {
+    "addr:city": "Venice",
+    "addr:housenumber": "990",
+    "addr:postcode": "34285",
+    "addr:state": "FL",
+    "addr:street": "La Guna Drive",
+    "leisure": "marina",
+    "name": "Freedom Boat Club",
+    "phone": "+1-888-781-7363",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://freedomboatclub.com/locations/4-venice-fl/"
+  }
+},
+{
+  "type": "way",
+  "id": 690293084,
+  "center": {
+    "lat": 24.8509814,
+    "lon": -80.7387526
+  },
+  "tags": {
+    "air_conditioning": "yes",
+    "building": "yes",
+    "name": "Sea Base Ship Store",
+    "shop": "boat",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 695884556,
+  "center": {
+    "lat": 28.0781468,
+    "lon": -80.6384550
+  },
+  "tags": {
+    "brand": "West Marine",
+    "brand:wikidata": "Q7985852",
+    "building": "retail",
+    "name": "West Marine",
+    "seamark:small_craft_facility:category": "chandler",
+    "seamark:type": "small_craft_facility",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 702316224,
+  "center": {
+    "lat": 26.1379633,
+    "lon": -81.7888299
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Naples Sailing & Yacht Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 749312825,
+  "center": {
+    "lat": 29.7082923,
+    "lon": -82.0442786
+  },
+  "tags": {
+    "addr:city": "Melrose",
+    "addr:housenumber": "829",
+    "addr:postcode": "32666",
+    "addr:state": "FL",
+    "addr:street": "State Highway 21",
+    "building": "yes",
+    "name": "Lake Area Watersports",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 768853031,
+  "center": {
+    "lat": 27.4450176,
+    "lon": -82.4913037
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 773868275,
+  "center": {
+    "lat": 28.0596234,
+    "lon": -82.7768397
+  },
+  "tags": {
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Home Port Marina",
+    "power_supply": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 828589972,
+  "center": {
+    "lat": 24.7102583,
+    "lon": -81.1063322
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Coast Guard Basin",
+    "operator": "USCG",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "restricted_area"
+  }
+},
+{
+  "type": "way",
+  "id": 889379511,
+  "center": {
+    "lat": 27.7730142,
+    "lon": -82.6293302
+  },
+  "tags": {
+    "layer": "1",
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 895995819,
+  "center": {
+    "lat": 27.4974285,
+    "lon": -82.5563670
+  },
+  "tags": {
+    "capacity": "220",
+    "leisure": "marina",
+    "name": "Tarpon Pointe Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 926456586,
+  "center": {
+    "lat": 29.1416364,
+    "lon": -80.9932270
+  },
+  "tags": {
+    "addr:city": "Port Orange",
+    "addr:housenumber": "520",
+    "addr:postcode": "32129",
+    "addr:state": "FL",
+    "addr:street": "Dunlawton Avenue",
+    "building": "yes",
+    "name": "Atlantic Marine",
+    "opening_hours": "Mo-Fr 08:30-18:00, Sa 09:00-16:00, Su 11:00-16:00",
+    "phone": "+1 386 788 1644",
+    "shop": "boat",
+    "website": "https://www.atlanticmarinefl.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 933955759,
+  "center": {
+    "lat": 28.5959290,
+    "lon": -81.4148550
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Lake Fairview Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 939609010,
+  "center": {
+    "lat": 26.6569467,
+    "lon": -81.8463067
+  },
+  "tags": {
+    "building": "yes",
+    "name": "San Carlos Marine",
+    "shop": "boat",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 943371464,
+  "center": {
+    "lat": 28.8174813,
+    "lon": -81.7659065
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 943384476,
+  "center": {
+    "lat": 28.2108039,
+    "lon": -80.6634076
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 944097528,
+  "center": {
+    "lat": 28.4081067,
+    "lon": -80.6288672
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 944305586,
+  "center": {
+    "lat": 28.3567356,
+    "lon": -80.6129564
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 948674799,
+  "center": {
+    "lat": 28.4063863,
+    "lon": -80.7093527
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 948674800,
+  "center": {
+    "lat": 28.4072226,
+    "lon": -80.7070672
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 948733585,
+  "center": {
+    "lat": 28.4077680,
+    "lon": -80.6788292
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 949186443,
+  "center": {
+    "lat": 28.3575019,
+    "lon": -80.7247752
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 956109779,
+  "center": {
+    "lat": 26.9603075,
+    "lon": -82.0683645
+  },
+  "tags": {
+    "addr:city": "Port Charlotte",
+    "addr:housenumber": "4694",
+    "addr:state": "FL",
+    "addr:street": "Tamiami Trail",
+    "building": "yes",
+    "mobile": "+1-941-766-1044",
+    "name": "Marine Trading Post",
+    "opening_hours": "Mo-Fr 08:00-17:30; Sa 08:00-17:00; Su 09:00-15:00",
+    "shop": "boat",
+    "source": "microsoft/BuildingFootprints",
+    "website": "https://marinetradingpost.com"
+  }
+},
+{
+  "type": "way",
+  "id": 958655696,
+  "center": {
+    "lat": 28.3342291,
+    "lon": -80.6610477
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 958732139,
+  "center": {
+    "lat": 24.6619844,
+    "lon": -81.4623467
+  },
+  "tags": {
+    "leisure": "marina",
+    "operator": "Florida Sea Base and Brinton Environmental Center",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 958881190,
+  "center": {
+    "lat": 28.3473879,
+    "lon": -80.6609129
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 960077345,
+  "center": {
+    "lat": 24.5624049,
+    "lon": -81.8029456
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Galleon Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.galleonmarinakeywest.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 960082399,
+  "center": {
+    "lat": 24.5618016,
+    "lon": -81.8029104
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "A & B Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.aandbmarina.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 960095386,
+  "center": {
+    "lat": 24.5628708,
+    "lon": -81.8001401
+  },
+  "tags": {
+    "fuel": "petrol;gasoline",
+    "fuel:diesel": "yes",
+    "fuel:lpg": "yes",
+    "leisure": "marina",
+    "name": "Conch Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://conchharbormarina.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 960749909,
+  "center": {
+    "lat": 24.7107710,
+    "lon": -81.1049165
+  },
+  "tags": {
+    "area": "yes",
+    "capacity": "74",
+    "email": "marina@faroblancoresort.com",
+    "leisure": "marina",
+    "name": "Faro Blanco Resort & Yacht Club",
+    "note": "Call 305-434-9047 for slip inquiries",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.faroblancoresort.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 961607051,
+  "center": {
+    "lat": 24.5788844,
+    "lon": -81.7504577
+  },
+  "tags": {
+    "area": "yes",
+    "leisure": "marina",
+    "name": "Sunset Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "http://www.sunsetmarinakw.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 962266931,
+  "center": {
+    "lat": 25.0013539,
+    "lon": -80.5374475
+  },
+  "tags": {
+    "addr:city": "Tavernier",
+    "addr:housenumber": "90400",
+    "addr:postcode": "33070",
+    "addr:state": "FL",
+    "addr:street": "Overseas Highway",
+    "building": "yes",
+    "email": "info@plantationboat.com",
+    "name": "Plantation Boat Mart & Marina",
+    "phone": "+1-305-852-5424",
+    "shop": "boat",
+    "website": "https://www.plantationboat.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 962279125,
+  "center": {
+    "lat": 24.7046204,
+    "lon": -81.1121887
+  },
+  "tags": {
+    "fuel": "yes",
+    "fuel:diesel": "yes",
+    "leisure": "marina",
+    "name": "Marathon Marina & Boat Yard",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://marathonmarinaresort.com"
+  }
+},
+{
+  "type": "way",
+  "id": 962640922,
+  "center": {
+    "lat": 24.7298344,
+    "lon": -81.0301698
+  },
+  "tags": {
+    "fuel": "yes",
+    "leisure": "marina",
+    "name": "Captain Hook's Marina and Dive Center",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://captainhooks.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 963243452,
+  "center": {
+    "lat": 24.5627573,
+    "lon": -81.7256669
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Stock Island Yacht Club & Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://spottswoodmarinas.com/stock-island-yacht-club/"
+  }
+},
+{
+  "type": "way",
+  "id": 964050069,
+  "center": {
+    "lat": 26.8032655,
+    "lon": -82.2753503
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Uncle Henry's Marina",
+    "phone": "+1-941-964-0154",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "http://www.unclehenrysmarina.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 964358197,
+  "center": {
+    "lat": 26.7548844,
+    "lon": -82.2602885
+  },
+  "tags": {
+    "addr:city": "Boca Grande",
+    "addr:housenumber": "891",
+    "addr:postcode": "33921",
+    "addr:state": "FL",
+    "addr:street": "8th Street East",
+    "building": "yes",
+    "leisure": "marina",
+    "name": "Inn Marine",
+    "phone": "+19419644620",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://the-gasparilla-inn.com/activities/marina/"
+  }
+},
+{
+  "type": "way",
+  "id": 964718295,
+  "center": {
+    "lat": 28.8150946,
+    "lon": -81.2668498
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Monroe Harbour Marina",
+    "note": "Badly damaged and likely not operational area of harbour",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "http://www.monroeharbour.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 964718296,
+  "center": {
+    "lat": 28.8147332,
+    "lon": -81.2645897
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Monroe Harbour Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "http://www.monroeharbour.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 965364676,
+  "center": {
+    "lat": 24.8976360,
+    "lon": -80.6576988
+  },
+  "tags": {
+    "addr:city": "Islamorada",
+    "addr:housenumber": "79851",
+    "addr:postcode": "33036",
+    "addr:state": "FL",
+    "addr:street": "Overseas Highway",
+    "building": "yes",
+    "email": "info@budnmarys.com",
+    "leisure": "marina",
+    "name": "Bud n'Mary's Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.budnmarys.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 965369753,
+  "center": {
+    "lat": 24.9648616,
+    "lon": -80.5687332
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "marina",
+    "name": "Plantation Yacht Harbor Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.islamorada.fl.us/"
+  }
+},
+{
+  "type": "way",
+  "id": 965374081,
+  "center": {
+    "lat": 24.9535923,
+    "lon": -80.5855417
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "marina",
+    "name": "IslaMarina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://islamarinakeys.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 965392909,
+  "center": {
+    "lat": 24.9183449,
+    "lon": -80.6366620
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "marina",
+    "name": "Caribee Boat Sales & Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://www.caribeeboats.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 965735801,
+  "center": {
+    "lat": 28.8150440,
+    "lon": -81.2678308
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 982164889,
+  "center": {
+    "lat": 24.9336506,
+    "lon": -80.6211211
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1011942353,
+  "center": {
+    "lat": 28.2530922,
+    "lon": -80.6120696
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1024429087,
+  "center": {
+    "lat": 28.1729981,
+    "lon": -82.7856812
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Anclote Village Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1036366872,
+  "center": {
+    "lat": 29.0274050,
+    "lon": -80.9207856
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039601490,
+  "center": {
+    "lat": 29.0127534,
+    "lon": -80.9141245
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039601491,
+  "center": {
+    "lat": 29.0133362,
+    "lon": -80.9131982
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039676771,
+  "center": {
+    "lat": 29.0335147,
+    "lon": -80.9171581
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039676774,
+  "center": {
+    "lat": 29.0367464,
+    "lon": -80.9135199
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039676775,
+  "center": {
+    "lat": 29.0392182,
+    "lon": -80.9077945
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039680461,
+  "center": {
+    "lat": 29.0324111,
+    "lon": -80.9126826
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1039680463,
+  "center": {
+    "lat": 29.0290325,
+    "lon": -80.9197733
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1091986928,
+  "center": {
+    "lat": 29.6752204,
+    "lon": -83.3999243
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1093602712,
+  "center": {
+    "lat": 29.6678210,
+    "lon": -83.3756792
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1093602958,
+  "center": {
+    "lat": 29.6712131,
+    "lon": -83.3885974
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1093603040,
+  "center": {
+    "lat": 29.6719948,
+    "lon": -83.3880807
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112361821,
+  "center": {
+    "lat": 29.6653420,
+    "lon": -83.3695455
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112362744,
+  "center": {
+    "lat": 29.6686088,
+    "lon": -83.3884076
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112372487,
+  "center": {
+    "lat": 29.3290611,
+    "lon": -83.1441205
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112373733,
+  "center": {
+    "lat": 29.3329845,
+    "lon": -83.1397232
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112374181,
+  "center": {
+    "lat": 29.3273461,
+    "lon": -83.1404563
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112374566,
+  "center": {
+    "lat": 29.4389809,
+    "lon": -83.2885921
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1112374767,
+  "center": {
+    "lat": 29.3261840,
+    "lon": -83.1443534
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1121108612,
+  "center": {
+    "lat": 29.7322043,
+    "lon": -84.9903386
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1121108622,
+  "center": {
+    "lat": 29.7562728,
+    "lon": -85.0208663
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1131832868,
+  "center": {
+    "lat": 25.1418941,
+    "lon": -80.9227962
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Florida Bay Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1131832869,
+  "center": {
+    "lat": 25.1435513,
+    "lon": -80.9227960
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Flamingo Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1133020572,
+  "center": {
+    "lat": 27.5056685,
+    "lon": -82.7109994
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1167283125,
+  "center": {
+    "lat": 29.2154472,
+    "lon": -82.7625594
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1167283126,
+  "center": {
+    "lat": 29.1424825,
+    "lon": -83.0354088
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1178343392,
+  "center": {
+    "lat": 29.7411270,
+    "lon": -82.0553479
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1178683796,
+  "center": {
+    "lat": 27.4419487,
+    "lon": -81.2973788
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1178683797,
+  "center": {
+    "lat": 27.3237950,
+    "lon": -81.2680094
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1183551449,
+  "center": {
+    "lat": 29.7456900,
+    "lon": -82.0991997
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1183551493,
+  "center": {
+    "lat": 29.6121832,
+    "lon": -82.2492292
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1183551494,
+  "center": {
+    "lat": 29.4964348,
+    "lon": -82.1655791
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702268,
+  "center": {
+    "lat": 29.6775656,
+    "lon": -81.6531083
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702269,
+  "center": {
+    "lat": 29.6444030,
+    "lon": -81.6318932
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702270,
+  "center": {
+    "lat": 29.6434383,
+    "lon": -81.6322339
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702271,
+  "center": {
+    "lat": 29.6371861,
+    "lon": -81.5915781
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702272,
+  "center": {
+    "lat": 29.6118296,
+    "lon": -81.5896559
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702273,
+  "center": {
+    "lat": 29.5758074,
+    "lon": -81.6763336
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702274,
+  "center": {
+    "lat": 29.5700421,
+    "lon": -81.6993419
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702275,
+  "center": {
+    "lat": 29.5256729,
+    "lon": -81.8778535
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702276,
+  "center": {
+    "lat": 29.5079635,
+    "lon": -81.6773666
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702277,
+  "center": {
+    "lat": 29.5081973,
+    "lon": -81.8039462
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702278,
+  "center": {
+    "lat": 29.5068091,
+    "lon": -81.8060450
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702279,
+  "center": {
+    "lat": 29.5074256,
+    "lon": -81.8376736
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702281,
+  "center": {
+    "lat": 29.4889873,
+    "lon": -81.6775267
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702282,
+  "center": {
+    "lat": 29.4853162,
+    "lon": -81.6736028
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702283,
+  "center": {
+    "lat": 29.4746130,
+    "lon": -81.6748094
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702284,
+  "center": {
+    "lat": 29.4757313,
+    "lon": -81.7389834
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702285,
+  "center": {
+    "lat": 29.4707370,
+    "lon": -81.6768745
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702288,
+  "center": {
+    "lat": 29.4436575,
+    "lon": -81.5076064
+  },
+  "tags": {
+    "addr:city": "Crescent City",
+    "addr:housenumber": "100",
+    "addr:postcode": "32112",
+    "addr:state": "FL",
+    "addr:street": "Grove Avenue",
+    "description": "Marina, Fish Camp and RV Park",
+    "fee": "yes",
+    "leisure": "marina",
+    "name": "Crescent Fish Camp",
+    "operator": "Crescent Fish Camp",
+    "phone": "+1-386-698-2444",
+    "power_supply": "yes",
+    "sanitary_dump_station": "no",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://outdooradventureretreats.com/crescent-fish-camp/"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702289,
+  "center": {
+    "lat": 29.4328460,
+    "lon": -81.6649053
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702290,
+  "center": {
+    "lat": 29.4330521,
+    "lon": -81.6639977
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702291,
+  "center": {
+    "lat": 29.4006318,
+    "lon": -81.6507250
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702292,
+  "center": {
+    "lat": 29.3916396,
+    "lon": -81.6446277
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702293,
+  "center": {
+    "lat": 29.3875279,
+    "lon": -81.6394949
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702294,
+  "center": {
+    "lat": 29.3814112,
+    "lon": -81.6278937
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702295,
+  "center": {
+    "lat": 29.3808974,
+    "lon": -81.6248154
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702296,
+  "center": {
+    "lat": 29.3796800,
+    "lon": -81.6222476
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1184702297,
+  "center": {
+    "lat": 29.3732352,
+    "lon": -81.6166704
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1187963267,
+  "center": {
+    "lat": 29.5781657,
+    "lon": -81.1937449
+  },
+  "tags": {
+    "landuse": "harbour",
+    "leisure": "marina",
+    "natural": "water",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1187963273,
+  "center": {
+    "lat": 29.4229515,
+    "lon": -81.4341898
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051644,
+  "center": {
+    "lat": 29.0162453,
+    "lon": -81.9653893
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051645,
+  "center": {
+    "lat": 29.5059027,
+    "lon": -81.9179987
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051646,
+  "center": {
+    "lat": 29.4506915,
+    "lon": -82.2139164
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051647,
+  "center": {
+    "lat": 29.4457315,
+    "lon": -81.9241974
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051648,
+  "center": {
+    "lat": 29.4446082,
+    "lon": -81.9320536
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051649,
+  "center": {
+    "lat": 29.4475222,
+    "lon": -82.2122964
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051650,
+  "center": {
+    "lat": 29.4276942,
+    "lon": -82.2086242
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051651,
+  "center": {
+    "lat": 29.3551834,
+    "lon": -81.8132792
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051652,
+  "center": {
+    "lat": 29.2945281,
+    "lon": -81.6539289
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051655,
+  "center": {
+    "lat": 29.1782189,
+    "lon": -81.8332980
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1189051656,
+  "center": {
+    "lat": 29.1383676,
+    "lon": -81.8484983
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1196976542,
+  "center": {
+    "lat": 26.7613408,
+    "lon": -80.9230578
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1196976543,
+  "center": {
+    "lat": 26.7617811,
+    "lon": -80.9244032
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1231820139,
+  "center": {
+    "lat": 26.7886779,
+    "lon": -81.2410744
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366674,
+  "center": {
+    "lat": 28.8516343,
+    "lon": -81.6901682
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366675,
+  "center": {
+    "lat": 28.8510134,
+    "lon": -81.6904550
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366676,
+  "center": {
+    "lat": 28.8355361,
+    "lon": -81.8322898
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366677,
+  "center": {
+    "lat": 28.8309618,
+    "lon": -81.8781679
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366678,
+  "center": {
+    "lat": 28.8278892,
+    "lon": -81.8371292
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366679,
+  "center": {
+    "lat": 28.8272306,
+    "lon": -81.8753705
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366680,
+  "center": {
+    "lat": 28.8203731,
+    "lon": -81.7855403
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366681,
+  "center": {
+    "lat": 28.8198939,
+    "lon": -81.7847129
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366682,
+  "center": {
+    "lat": 28.8196196,
+    "lon": -81.7841212
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366683,
+  "center": {
+    "lat": 28.8193411,
+    "lon": -81.7832980
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366685,
+  "center": {
+    "lat": 28.8190393,
+    "lon": -81.7820966
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366686,
+  "center": {
+    "lat": 28.8109259,
+    "lon": -81.7376508
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366687,
+  "center": {
+    "lat": 28.8104997,
+    "lon": -81.7441272
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366688,
+  "center": {
+    "lat": 28.8049422,
+    "lon": -81.8726158
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366689,
+  "center": {
+    "lat": 28.7971372,
+    "lon": -81.6433915
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366690,
+  "center": {
+    "lat": 28.7972766,
+    "lon": -81.7355950
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366691,
+  "center": {
+    "lat": 28.7970058,
+    "lon": -81.7650790
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366692,
+  "center": {
+    "lat": 28.7859852,
+    "lon": -81.8871707
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366693,
+  "center": {
+    "lat": 28.7716208,
+    "lon": -81.7587645
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366694,
+  "center": {
+    "lat": 28.7654719,
+    "lon": -81.7556545
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366695,
+  "center": {
+    "lat": 28.7597065,
+    "lon": -81.8892057
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366709,
+  "center": {
+    "lat": 28.7582044,
+    "lon": -81.8727405
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366710,
+  "center": {
+    "lat": 28.7458015,
+    "lon": -81.7676780
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366711,
+  "center": {
+    "lat": 28.7445126,
+    "lon": -81.7659803
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366712,
+  "center": {
+    "lat": 28.7463963,
+    "lon": -81.8230764
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366713,
+  "center": {
+    "lat": 28.7045591,
+    "lon": -81.6734917
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366714,
+  "center": {
+    "lat": 28.7045222,
+    "lon": -81.6778865
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366715,
+  "center": {
+    "lat": 28.5583483,
+    "lon": -81.7722893
+  },
+  "tags": {
+    "leisure": "marina",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366716,
+  "center": {
+    "lat": 28.5576461,
+    "lon": -81.7690342
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366894,
+  "center": {
+    "lat": 29.0471058,
+    "lon": -81.5076302
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366905,
+  "center": {
+    "lat": 29.0132333,
+    "lon": -81.6366558
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366906,
+  "center": {
+    "lat": 29.0073395,
+    "lon": -81.3825365
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366907,
+  "center": {
+    "lat": 28.9812259,
+    "lon": -81.3664485
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366908,
+  "center": {
+    "lat": 28.9048945,
+    "lon": -81.7625142
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366909,
+  "center": {
+    "lat": 28.8729820,
+    "lon": -81.7853965
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366910,
+  "center": {
+    "lat": 28.8664327,
+    "lon": -81.6911164
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366968,
+  "center": {
+    "lat": 29.1707095,
+    "lon": -81.6269934
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366969,
+  "center": {
+    "lat": 29.1657852,
+    "lon": -81.5238692
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232366970,
+  "center": {
+    "lat": 29.1632847,
+    "lon": -81.5248700
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232597369,
+  "center": {
+    "lat": 26.8747618,
+    "lon": -82.3129976
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916762,
+  "center": {
+    "lat": 28.8483412,
+    "lon": -81.3432015
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916774,
+  "center": {
+    "lat": 29.0794067,
+    "lon": -80.9277691
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916775,
+  "center": {
+    "lat": 29.0625088,
+    "lon": -81.3699355
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916776,
+  "center": {
+    "lat": 29.0630183,
+    "lon": -81.3704939
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916777,
+  "center": {
+    "lat": 29.0328279,
+    "lon": -80.9149223
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916778,
+  "center": {
+    "lat": 29.0337308,
+    "lon": -80.9160265
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916779,
+  "center": {
+    "lat": 29.0317416,
+    "lon": -80.9169099
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916780,
+  "center": {
+    "lat": 29.0287074,
+    "lon": -80.9208124
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916781,
+  "center": {
+    "lat": 29.0270656,
+    "lon": -80.9207306
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916782,
+  "center": {
+    "lat": 29.0247933,
+    "lon": -81.3826068
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916783,
+  "center": {
+    "lat": 29.0084992,
+    "lon": -81.3811703
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916784,
+  "center": {
+    "lat": 29.0086764,
+    "lon": -81.3809787
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916790,
+  "center": {
+    "lat": 29.0045924,
+    "lon": -81.3504454
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916791,
+  "center": {
+    "lat": 28.9933474,
+    "lon": -81.3518777
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916792,
+  "center": {
+    "lat": 28.9709710,
+    "lon": -80.8915312
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916793,
+  "center": {
+    "lat": 28.9776686,
+    "lon": -81.3576203
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916794,
+  "center": {
+    "lat": 28.9747820,
+    "lon": -81.3578242
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916795,
+  "center": {
+    "lat": 28.9747328,
+    "lon": -81.3581734
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916796,
+  "center": {
+    "lat": 28.9349117,
+    "lon": -80.8293393
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916797,
+  "center": {
+    "lat": 28.9034573,
+    "lon": -80.8548726
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916798,
+  "center": {
+    "lat": 28.8860838,
+    "lon": -81.3570650
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916799,
+  "center": {
+    "lat": 28.8648797,
+    "lon": -80.8359250
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916800,
+  "center": {
+    "lat": 28.8655567,
+    "lon": -80.8338222
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916801,
+  "center": {
+    "lat": 28.8630437,
+    "lon": -81.2517423
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916853,
+  "center": {
+    "lat": 29.3062062,
+    "lon": -81.0947154
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916856,
+  "center": {
+    "lat": 29.2289363,
+    "lon": -81.0240050
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916857,
+  "center": {
+    "lat": 29.2260902,
+    "lon": -81.0226956
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916859,
+  "center": {
+    "lat": 29.2045386,
+    "lon": -81.0139141
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916860,
+  "center": {
+    "lat": 29.2074501,
+    "lon": -81.0145639
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916862,
+  "center": {
+    "lat": 29.2030145,
+    "lon": -81.5637029
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916863,
+  "center": {
+    "lat": 29.1851274,
+    "lon": -81.5462623
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916866,
+  "center": {
+    "lat": 29.1852151,
+    "lon": -81.5333332
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916867,
+  "center": {
+    "lat": 29.1780145,
+    "lon": -81.5319170
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916868,
+  "center": {
+    "lat": 29.1674278,
+    "lon": -81.5210937
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916869,
+  "center": {
+    "lat": 29.1548692,
+    "lon": -80.9749397
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1232916870,
+  "center": {
+    "lat": 29.1323724,
+    "lon": -80.9612087
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1234055620,
+  "center": {
+    "lat": 26.6629262,
+    "lon": -82.1541964
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234055726,
+  "center": {
+    "lat": 26.7012635,
+    "lon": -82.1547276
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234055727,
+  "center": {
+    "lat": 26.7012391,
+    "lon": -82.1555777
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234055951,
+  "center": {
+    "lat": 26.7548717,
+    "lon": -82.2602239
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065276,
+  "center": {
+    "lat": 26.7284383,
+    "lon": -81.7501763
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065277,
+  "center": {
+    "lat": 26.7135427,
+    "lon": -81.7610700
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065278,
+  "center": {
+    "lat": 26.7135527,
+    "lon": -81.7603328
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065281,
+  "center": {
+    "lat": 26.6388404,
+    "lon": -81.9083339
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065282,
+  "center": {
+    "lat": 26.6284868,
+    "lon": -81.9176608
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065283,
+  "center": {
+    "lat": 26.5381501,
+    "lon": -81.9219015
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065284,
+  "center": {
+    "lat": 26.5265187,
+    "lon": -81.9536975
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065285,
+  "center": {
+    "lat": 26.4903179,
+    "lon": -81.9893285
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065286,
+  "center": {
+    "lat": 26.4880309,
+    "lon": -82.0115258
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065287,
+  "center": {
+    "lat": 26.4590173,
+    "lon": -81.9527114
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065288,
+  "center": {
+    "lat": 26.4590694,
+    "lon": -81.9536325
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065289,
+  "center": {
+    "lat": 26.4579938,
+    "lon": -81.9426634
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065290,
+  "center": {
+    "lat": 26.4564828,
+    "lon": -81.9558164
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065295,
+  "center": {
+    "lat": 26.4134301,
+    "lon": -81.8988826
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065296,
+  "center": {
+    "lat": 26.4003015,
+    "lon": -81.8407723
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1234065297,
+  "center": {
+    "lat": 26.3392539,
+    "lon": -81.8283648
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235125330,
+  "center": {
+    "lat": 27.7259000,
+    "lon": -80.7772529
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235125333,
+  "center": {
+    "lat": 27.6626070,
+    "lon": -80.6444046
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985490,
+  "center": {
+    "lat": 28.7705992,
+    "lon": -80.8468820
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985496,
+  "center": {
+    "lat": 28.7335134,
+    "lon": -80.7565622
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985497,
+  "center": {
+    "lat": 28.7109653,
+    "lon": -80.7323759
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985498,
+  "center": {
+    "lat": 28.7062592,
+    "lon": -80.7211161
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985499,
+  "center": {
+    "lat": 28.6783394,
+    "lon": -80.8266438
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985500,
+  "center": {
+    "lat": 28.6258669,
+    "lon": -80.7913600
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985501,
+  "center": {
+    "lat": 28.6262012,
+    "lon": -80.7903882
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985502,
+  "center": {
+    "lat": 28.6194537,
+    "lon": -80.8095339
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985503,
+  "center": {
+    "lat": 28.6192548,
+    "lon": -80.8084698
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985504,
+  "center": {
+    "lat": 28.6141517,
+    "lon": -80.8056476
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985505,
+  "center": {
+    "lat": 28.5545191,
+    "lon": -80.7960273
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985537,
+  "center": {
+    "lat": 28.4751191,
+    "lon": -80.7670852
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985540,
+  "center": {
+    "lat": 28.3708478,
+    "lon": -80.8715478
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985556,
+  "center": {
+    "lat": 28.3569410,
+    "lon": -80.7241144
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985557,
+  "center": {
+    "lat": 28.2086066,
+    "lon": -80.6627385
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985558,
+  "center": {
+    "lat": 28.1783197,
+    "lon": -80.6495549
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985559,
+  "center": {
+    "lat": 28.1506280,
+    "lon": -80.6024141
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985560,
+  "center": {
+    "lat": 28.1496084,
+    "lon": -80.6035386
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985561,
+  "center": {
+    "lat": 28.1477570,
+    "lon": -80.7326141
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985562,
+  "center": {
+    "lat": 28.1446254,
+    "lon": -80.6012294
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985563,
+  "center": {
+    "lat": 28.1387736,
+    "lon": -80.6007911
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985564,
+  "center": {
+    "lat": 28.1260095,
+    "lon": -80.6274871
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985565,
+  "center": {
+    "lat": 28.0852396,
+    "lon": -80.7530190
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985566,
+  "center": {
+    "lat": 28.0776546,
+    "lon": -80.6004873
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985567,
+  "center": {
+    "lat": 28.0764790,
+    "lon": -80.6008507
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985568,
+  "center": {
+    "lat": 28.0323390,
+    "lon": -80.5792016
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985569,
+  "center": {
+    "lat": 28.0165786,
+    "lon": -80.5679819
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1235985570,
+  "center": {
+    "lat": 28.0164231,
+    "lon": -80.5668280
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1236396011,
+  "center": {
+    "lat": 28.2610991,
+    "lon": -81.3823354
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1236396012,
+  "center": {
+    "lat": 28.2635989,
+    "lon": -81.3818784
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1236823347,
+  "center": {
+    "lat": 27.8945324,
+    "lon": -81.3729187
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1237060710,
+  "center": {
+    "lat": 28.8349091,
+    "lon": -81.3280492
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1237060713,
+  "center": {
+    "lat": 28.8028478,
+    "lon": -81.2126929
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1237060714,
+  "center": {
+    "lat": 28.7866155,
+    "lon": -81.1816964
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1237060715,
+  "center": {
+    "lat": 28.7132228,
+    "lon": -81.4445142
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1237060716,
+  "center": {
+    "lat": 28.7053665,
+    "lon": -81.2068289
+  },
+  "tags": {
+    "leisure": "marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1245665271,
+  "center": {
+    "lat": 24.7029949,
+    "lon": -81.1118731
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "boat"
+  }
+},
+{
+  "type": "way",
+  "id": 1250892099,
+  "center": {
+    "lat": 28.1787164,
+    "lon": -82.7395639
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "boat",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 1250892388,
+  "center": {
+    "lat": 28.1862731,
+    "lon": -82.7408909
+  },
+  "tags": {
+    "building": "yes",
+    "shop": "boat",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 1253508548,
+  "center": {
+    "lat": 28.4900884,
+    "lon": -82.6507817
+  },
+  "tags": {
+    "addr:country": "US",
+    "addr:postcode": "34607",
+    "addr:state": "FL",
+    "addr:street": "Shoal Line Blvd",
+    "ele": "0",
+    "gnis:feature_id": "2333704",
+    "leisure": "marina",
+    "name": "Hernando Beach Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1253510074,
+  "center": {
+    "lat": 28.4907427,
+    "lon": -82.6508412
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Nature Coast Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1253511889,
+  "center": {
+    "lat": 28.4918618,
+    "lon": -82.6504993
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Sterling Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1341692593,
+  "center": {
+    "lat": 26.1322842,
+    "lon": -81.7932941
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Naples City Dock",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1341693160,
+  "center": {
+    "lat": 26.1304273,
+    "lon": -81.7944015
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Naples Yacht Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1342263875,
+  "center": {
+    "lat": 26.5478091,
+    "lon": -82.1967413
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Yacht Harbour Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1342265268,
+  "center": {
+    "lat": 26.5277351,
+    "lon": -82.1896122
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Captiva Landing Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1346449745,
+  "center": {
+    "lat": 29.5768693,
+    "lon": -81.1933200
+  },
+  "tags": {
+    "landuse": "harbour",
+    "leisure": "marina",
+    "name": "Palm Coast Marina",
+    "natural": "water",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1351010687,
+  "center": {
+    "lat": 26.1369364,
+    "lon": -81.7908149
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Olde Naples Seaport",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1351010688,
+  "center": {
+    "lat": 26.1379145,
+    "lon": -81.7910926
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Naples Boat Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1382446208,
+  "center": {
+    "lat": 29.4797431,
+    "lon": -81.1365974
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1383214862,
+  "center": {
+    "lat": 29.5759948,
+    "lon": -81.1885031
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Yacht Harbor Marina",
+    "natural": "water",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1387648325,
+  "center": {
+    "lat": 29.4974230,
+    "lon": -81.1500249
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Marina del Palma",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1461782610,
+  "center": {
+    "lat": 27.9670792,
+    "lon": -82.8047447
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Harbor Marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1461782611,
+  "center": {
+    "lat": 27.9652552,
+    "lon": -82.8052024
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Harbor Marina"
+  }
+},
+{
+  "type": "way",
+  "id": 1463793048,
+  "center": {
+    "lat": 27.7694894,
+    "lon": -82.6315040
+  },
+  "tags": {
+    "addr:city": "St Petersburg",
+    "addr:housenumber": "250",
+    "addr:postcode": "33701",
+    "addr:state": "FL",
+    "addr:street": "2nd Avenue Southeast",
+    "leisure": "marina",
+    "name": "St Petersburg Sailing Center",
+    "operator": "St Petersburg Yacht Club",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1463793061,
+  "center": {
+    "lat": 27.7715315,
+    "lon": -82.6317460
+  },
+  "tags": {
+    "addr:city": "Saint Petersburg",
+    "addr:housenumber": "50",
+    "addr:postcode": "33701",
+    "addr:state": "FL",
+    "addr:street": "Bay Shore Drive Northeast",
+    "leisure": "marina",
+    "name": "St Petersburg Yacht Club - Downtown Marina",
+    "operator": "St Petersburg Yacht Club",
+    "power_supply": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1463793063,
+  "center": {
+    "lat": 27.7771572,
+    "lon": -82.6288077
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Vinoy Marina",
+    "operator": "Vinoy Hotel",
+    "power_supply": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1463793070,
+  "center": {
+    "lat": 27.7598297,
+    "lon": -82.6353792
+  },
+  "tags": {
+    "addr:city": "Saint Petersburg",
+    "addr:country": "US",
+    "addr:postcode": "33712;33701",
+    "addr:state": "FL",
+    "area": "yes",
+    "leisure": "marina",
+    "name": "Harborage Marina",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1463793071,
+  "center": {
+    "lat": 27.7619064,
+    "lon": -82.6348134
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "USF Haney Landing Sailing Cener",
+    "operator": "University of South Florida",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1463801814,
+  "center": {
+    "lat": 27.9307781,
+    "lon": -82.4541047
+  },
+  "tags": {
+    "harbour": "yes",
+    "leisure": "marina",
+    "name": "Marjorie Park Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1484667242,
+  "center": {
+    "lat": 26.9756998,
+    "lon": -81.8953327
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "way",
+  "id": 1495968632,
+  "center": {
+    "lat": 25.9563367,
+    "lon": -81.5107725
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Port of the Islands Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "website": "https://portoftheislandsmarina.com/contact-us.html"
+  }
+},
+{
+  "type": "way",
+  "id": 1537009881,
+  "center": {
+    "lat": 26.1395604,
+    "lon": -81.7794300
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Brookside Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour"
+  }
+},
+{
+  "type": "relation",
+  "id": 8422119,
+  "center": {
+    "lat": 25.9197202,
+    "lon": -81.6514363
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Calusa Island Marina & Yacht Club",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8669466,
+  "center": {
+    "lat": 26.9242384,
+    "lon": -82.0726340
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Isles Yacht Club",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8721197,
+  "center": {
+    "lat": 26.7627883,
+    "lon": -82.0586868
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Burnt Store Marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 11488500,
+  "center": {
+    "lat": 27.5266069,
+    "lon": -82.7214570
+  },
+  "tags": {
+    "leisure": "marina",
+    "name": "Galati Yacht basin",
+    "operator": "Galati Yacht sales",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 15741992,
+  "center": {
+    "lat": 24.5643553,
+    "lon": -81.7375146
+  },
+  "tags": {
+    "capacity": "288",
+    "leisure": "marina",
+    "name": "Oasis Marina",
+    "operator": "Oasis Marinas",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "floating_dock",
+    "type": "multipolygon",
+    "website": "https://www.oasismarinas.com/"
+  }
+},
+{
+  "type": "relation",
+  "id": 16015823,
+  "center": {
+    "lat": 29.4660691,
+    "lon": -81.6727731
+  },
+  "tags": {
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16060620,
+  "center": {
+    "lat": 29.7525806,
+    "lon": -81.2483995
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16841078,
+  "center": {
+    "lat": 29.1211353,
+    "lon": -81.5095184
+  },
+  "tags": {
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16853519,
+  "center": {
+    "lat": 29.0108728,
+    "lon": -81.3847894
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16853522,
+  "center": {
+    "lat": 29.3116126,
+    "lon": -81.5457907
+  },
+  "tags": {
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16853523,
+  "center": {
+    "lat": 29.1838148,
+    "lon": -81.5325852
+  },
+  "tags": {
+    "landuse": "religious",
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16853524,
+  "center": {
+    "lat": 29.0910936,
+    "lon": -80.9390852
+  },
+  "tags": {
+    "leisure": "marina",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16872627,
+  "center": {
+    "lat": 26.6466705,
+    "lon": -81.8697448
+  },
+  "tags": {
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16912949,
+  "center": {
+    "lat": 28.3680201,
+    "lon": -80.8714110
+  },
+  "tags": {
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 16940593,
+  "center": {
+    "lat": 28.8154885,
+    "lon": -81.2655299
+  },
+  "tags": {
+    "leisure": "marina",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20041419,
+  "center": {
+    "lat": 27.7704574,
+    "lon": -82.6290370
+  },
+  "tags": {
+    "capacity": "640",
+    "leisure": "marina",
+    "name": "St Petersburg Municipal Marina",
+    "operator": "City of St Petersburg",
+    "power_supply": "yes",
+    "sanitary_dump_station": "yes",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
