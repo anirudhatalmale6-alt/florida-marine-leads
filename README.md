@@ -16,9 +16,13 @@ employees' names or direct numbers.
 `data/florida-marine-businesses.pdf` — printable directory
 `data/florida-marine-businesses.csv` — plain text
 
-519 companies pulled from OpenStreetMap: 89 boat sales, 10 builders, 304
-marinas and dock operators, 96 rental/storage operations. Every row has a name,
-most have an address and a map link.
+`data/florida-boat-dealers.*` — **boat sellers only**: 102 companies, 46 with a
+phone. This is the one the client asked for; no marinas, rentals, tackle or dive
+shops. Built with `python3 build_osm.py fl.json --sales-only`.
+
+`data/florida-marine-businesses.*` — everything marine: 639 companies, 245 with
+a phone. 91 boat sales, 11 builders, 303 marinas and dock operators, 122
+rental/storage, 53 tackle, 39 dive shops, 4 clubs.
 
 The query casts a wide net — the explicit marine tags, plus anything with
 marine, boat, yacht, marina, outboard or nautic in its name that is tagged as a
@@ -27,10 +31,16 @@ shop, trade, office or industrial site. That last part is what takes it from
 are invisible to a tag-only search. Name matches are filtered so that the
 county Marine Patrol office and "Marina Gift Shop" do not come along with them.
 
-**Phone coverage: 200 of the 519.** OpenStreetMap itself supplies 146 of those.
-The other 54 come from `find_phones.py`, which visits the company's own website
-and reads the number they publish for customers to call (see below). It is
-still not every marine business in Florida — that needs the Places run.
+**Phone coverage: 245 of the 639**, of which 59 came from `find_phones.py`
+reading the number a company publishes on its own site (see below).
+
+**The ceiling on boat dealers is about 100, and it is not worth attacking
+again.** Widening the sweep as far as it goes — sailing, watersports, dive,
+tackle, clubs, riggers, sailmakers, every generic-tagged business whose name
+mentions boats — moved the overall total from 519 to 639 but moved boat dealers
+from 89 to 90. OpenStreetMap simply does not hold Florida's dealer network.
+Industry listings suggest 300–400 dealer locations statewide, so a complete
+list is 3–4x this. That needs the Places run.
 
 It is also crowd-sourced, so the odd entry is junk — this pull contained one
 business with `941-555-0198`, which is the number range reserved for use in

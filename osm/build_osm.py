@@ -24,6 +24,19 @@ CATEGORY = {
     ('leisure', 'marina'): 'Marina / docks',
     ('amenity', 'boat_rental'): 'Rental / storage',
     ('amenity', 'boat_storage'): 'Rental / storage',
+    ('amenity', 'boat_sharing'): 'Rental / storage',
+    ('shop', 'sails'): 'Sails & rigging',
+    ('craft', 'sailmaker'): 'Sails & rigging',
+    # Marine retail, but NOT boat dealers. They get their own labels so the
+    # count cannot be mistaken for a bigger dealer list than it is, and so
+    # they can be filtered out in one click.
+    ('shop', 'fishing'): 'Fishing & tackle',
+    ('shop', 'scuba_diving'): 'Dive shop',
+    ('amenity', 'dive_centre'): 'Dive shop',
+    ('leisure', 'sailing_club'): 'Yacht / sailing club',
+    ('club', 'yacht'): 'Yacht / sailing club',
+    ('club', 'sailing'): 'Yacht / sailing club',
+    ('club', 'boat'): 'Yacht / sailing club',
 }
 
 # The query also sweeps anything with marine/boat/yacht/marina in its NAME that
@@ -101,7 +114,14 @@ def address(t):
     parts += [t.get('addr:city', ''), t.get('addr:state', ''), t.get('addr:postcode', '')]
     return ', '.join(p for p in parts if p).replace(', FL,', ', FL')
 
-data = json.load(open(sys.argv[1] if len(sys.argv) > 1 else 'fl.json'))
+argv = [a for a in sys.argv[1:] if not a.startswith('--')]
+# Companies that SELL BOATS, nothing else — no marinas, rentals, tackle or dive
+# shops. This is what the client's own customer actually asked for.
+SALES_ONLY = '--sales-only' in sys.argv
+KEEP_IF_SALES_ONLY = {'Boat sales', 'Boat builder'}
+OUT = 'florida-boat-dealers' if SALES_ONLY else 'florida-marine-businesses'
+
+data = json.load(open(argv[0] if argv else 'fl.json'))
 rows = []
 for el in data['elements']:
     t = el.get('tags', {})
@@ -111,6 +131,8 @@ for el in data['elements']:
     cat = category(t)
     if cat is None:
         continue  # matched the name sweep but is not a marine business
+    if SALES_ONLY and cat not in KEEP_IF_SALES_ONLY:
+        continue
     lat = el.get('lat') or (el.get('center') or {}).get('lat')
     lon = el.get('lon') or (el.get('center') or {}).get('lon')
     rows.append({
@@ -181,9 +203,9 @@ widths = {'Company': 42, 'Category': 18, 'Phone': 16, 'Email': 32, 'Website': 40
 for i, c in enumerate(cols, 1):
     ws.column_dimensions[get_column_letter(i)].width = widths[c]
 ws.auto_filter.ref = f'A1:{get_column_letter(len(cols))}{len(uniq)+1}'
-wb.save('florida-marine-businesses.xlsx')
+wb.save(f'{OUT}.xlsx')
 
-with open('florida-marine-businesses.csv', 'w', encoding='utf-8') as f:
+with open(f'{OUT}.csv', 'w', encoding='utf-8') as f:
     import csv
     w = csv.DictWriter(f, fieldnames=cols)
     w.writeheader()

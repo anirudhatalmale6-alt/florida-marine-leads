@@ -50,6 +50,13 @@ have = set(rows[0].keys())
 # passed on to someone else.
 SOURCE = 'places' if 'Rating' in have or 'County' in have else 'osm'
 
+# Name the document after what is actually in it. A dealers-only file headed
+# "Florida Marine Businesses" reads as a broader list than it is, and this one
+# gets forwarded to the client's own customer.
+_cats = {r.get('Category', '') for r in rows}
+TITLE = ('Florida Boat Dealers' if _cats <= {'Boat sales', 'Boat builder'}
+         else 'Florida Marine Businesses')
+
 # Column plan: (heading, csv field, width in inches)
 plan = [('Company', 'Company', 2.35)]
 if 'Phone' in have:
@@ -113,7 +120,7 @@ def decorate(canvas, doc):
     canvas.line(LM, BM - 9, w - RM, BM - 9)
     canvas.setFont('Helvetica', 7.4)
     canvas.setFillColor(SLATE)
-    canvas.drawString(LM, BM - 20, 'Florida Marine Businesses')
+    canvas.drawString(LM, BM - 20, TITLE)
     canvas.drawRightString(w - RM, BM - 20, f'Page {doc.page}')
     canvas.restoreState()
 
@@ -129,7 +136,7 @@ COL_W = [w * inch * _scale for _, _, w in plan]
 
 doc = BaseDocTemplate(out, pagesize=PAGE, leftMargin=LM, rightMargin=RM,
                       topMargin=TM, bottomMargin=BM,
-                      title='Florida Marine Businesses',
+                      title=TITLE,
                       author='Anirudha Talmale')
 frame = Frame(LM, BM, PAGE[0] - LM - RM, PAGE[1] - TM - BM, id='f',
               leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
@@ -140,9 +147,7 @@ n_phone = sum(1 for r in rows if r.get('Phone'))
 n_email = sum(1 for r in rows if r.get('Email'))
 n_site = sum(1 for r in rows if r.get('Website'))
 
-story.append(Paragraph(
-    'Florida Marine Businesses &mdash; Call Sheet' if calls_only
-    else 'Florida Marine Businesses', h1))
+story.append(Paragraph(TITLE + (' &mdash; Call Sheet' if calls_only else ''), h1))
 story.append(Paragraph(
     f'{len(rows)} companies &nbsp;·&nbsp; {n_phone} with a phone number'
     + (f' &nbsp;·&nbsp; {n_email} with an email' if 'Email' in have else '')
