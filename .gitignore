@@ -5,3 +5,4 @@ __pycache__/
 # build artefacts — the published copies live in data/
 osm/florida-*.csv
 osm/florida-*.xlsx
+osm/parts/
