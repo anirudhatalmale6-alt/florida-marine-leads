@@ -10,16 +10,19 @@ website, and neither collects individual employees' names or direct numbers.
 
 ## 1. The starter list — already built, nothing to run
 
-`data/florida-marine-businesses.xlsx`
+`data/florida-marine-businesses.xlsx` — spreadsheet
+`data/florida-marine-businesses.pdf` — printable directory
+`data/florida-marine-businesses.csv` — plain text
 
-213 companies pulled from OpenStreetMap: 49 boat sales / builders and 159
+209 companies pulled from OpenStreetMap: 51 boat sales / builders and 158
 marinas and dock operators. Every row has a name, most have an address and a
 map link.
 
 **Be aware of the catch:** OpenStreetMap is excellent at *where things are* and
-poor at *how to phone them*, at least in the US. Only 39 of the 213 have a phone
-number and only 9 have an email. It is a good map of who exists and where; it is
-not a finished call list.
+poor at *how to phone them*, at least in the US. Only 39 of the 209 have a phone
+number and only 9 have an email — 78 carry any contact detail at all, and the
+other 131 are a name and a location. It is a good map of who exists and where;
+it is not a finished call list.
 
 It is also crowd-sourced, so the odd entry is junk — this pull contained one
 business with `941-555-0198`, which is the number range reserved for use in
@@ -102,6 +105,13 @@ Category is one of Boat sales, Repair / service, Marina / docks, Rental, or
 whatever Google's own primary type says. `Status` flags anything Google has
 marked as temporarily closed so you do not waste a call on it.
 
+**No email column, and that is not a choice I made.** The Google Places API has
+no email field — it returns phone, website, address and ratings, and that is
+all. Nobody can pull emails out of it. The website column is the way in: the
+contact form or the published `info@` address is one click from there.
+Bulk email lists come from paid B2B providers (Data Axle, Apollo and similar),
+not from Google.
+
 ---
 
 ## Rebuilding the OpenStreetMap starter list
@@ -117,6 +127,17 @@ python3 build_osm.py     # writes the spreadsheet
 
 The public Overpass servers are frequently busy and return 504s; the script
 tries three different mirrors before giving up. Just run it again if it fails.
+
+## Making the PDF
+
+```sh
+python3 make_pdf.py data/florida-marine-businesses.csv data/florida-marine-businesses.pdf
+```
+
+Landscape directory grouped by category, contactable entries first in each
+section, with the coverage caveat printed on page one so nobody downstream
+mistakes it for a complete register. It adapts to whichever CSV you give it —
+the OpenStreetMap one or the Google Places one.
 
 ---
 

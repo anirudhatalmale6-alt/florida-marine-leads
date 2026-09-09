@@ -1,91 +1,115 @@
 Company,Category,Phone,Email,Website,Address,City,Map,OSM
 A & M Manufacturing,Boat builder,(352) 542-7152,,,"26988 SE Hwy 19, Old Town, FL 32680",Old Town,"https://www.google.com/maps/search/?api=1&query=29.5922157,-82.9654563",https://www.openstreetmap.org/node/3667962117
 "Crystal Cay Building & Marine, Inc.",Boat builder,(941) 639-6603,,https://crystalcay.com/,"4225 Taylor Road, Punta Gorda, FL 33950",Punta Gorda,"https://www.google.com/maps/search/?api=1&query=26.8995378,-82.0167855",https://www.openstreetmap.org/node/6691074732
+Sandy Hook Yachts,Boat builder,,,,"2072 Davis Boulevard, Naples, FL 34104",Naples,"https://www.google.com/maps/search/?api=1&query=26.1379673,-81.7789323",https://www.openstreetmap.org/way/523951593
+Trident Pontoons,Boat builder,,,,,,"https://www.google.com/maps/search/?api=1&query=28.7662459,-81.7514748",https://www.openstreetmap.org/node/13423206895
+"Young Boats, Inc.",Boat builder,,,,,,"https://www.google.com/maps/search/?api=1&query=29.037232,-82.668107",https://www.openstreetmap.org/node/2326076177
 Allied Marine,Boat sales,(239) 262-6500,,https://www.alliedmarine.com/,"909 10th Street South, Naples, FL 34102",Naples,"https://www.google.com/maps/search/?api=1&query=26.1375005,-81.7918287",https://www.openstreetmap.org/node/13931285591
+Allwater Marine,Boat sales,,,https://allwatermarine.com/,"2751 Avenue of the America, Englewood, FL 34224",Englewood,"https://www.google.com/maps/search/?api=1&query=26.9174485,-82.3090515",https://www.openstreetmap.org/node/13411413245
 Atlantic Marine,Boat sales,(386) 788-1644,,https://www.atlanticmarinefl.com/,"520 Dunlawton Avenue, Port Orange, FL 32129",Port Orange,"https://www.google.com/maps/search/?api=1&query=29.1416364,-80.993227",https://www.openstreetmap.org/way/926456586
 Casual Monday Charters,Boat sales,(305) 988-1179,CasualMondayCharters@gmail.com,https://casualmondaycharters.com/,"5950 Peninsular Avenue, Key West, FL 33040",Key West,"https://www.google.com/maps/search/?api=1&query=24.5636631,-81.7300407",https://www.openstreetmap.org/node/13344455911
 Formula Boats,Boat sales,(239) 331-2104,,http://www.formulaboatssouth.com/,"909 10th Street South, Naples, FL 34102",Naples,"https://www.google.com/maps/search/?api=1&query=26.137523,-81.791648",https://www.openstreetmap.org/node/13931285592
 Galati Yacht Sales,Boat sales,(941) 778-0755,,,"900 South Bay Boulevard, Anna Maria, FL 34216",Anna Maria,"https://www.google.com/maps/search/?api=1&query=27.5273013,-82.7215854",https://www.openstreetmap.org/way/644621074
 Germain Yachts Center,Boat sales,(239) 262-2628,,https://www.germainyachts.com/,"895 10th Street South, Naples, FL 34102",Naples,"https://www.google.com/maps/search/?api=1&query=26.1377551,-81.7923362",https://www.openstreetmap.org/node/13931285593
 Hinckley Yachts,Boat sales,(239) 300-4995,,https://www.hinckleyyachts.com/contact/sales/,"535 5th Avenue South, Naples, FL 34102",Naples,"https://www.google.com/maps/search/?api=1&query=26.141451,-81.7998456",https://www.openstreetmap.org/node/9407924119
+Marine Trading Post,Boat sales,,,https://marinetradingpost.com,"4694 Tamiami Trail, Port Charlotte, FL",Port Charlotte,"https://www.google.com/maps/search/?api=1&query=26.9603075,-82.0683645",https://www.openstreetmap.org/way/956109779
 MarineMax,Boat sales,(239) 963-8108,,https://www.marinemax.com/stores/yachts-and-charter,"525 5th Avenue South, Naples, FL 34102",Naples,"https://www.google.com/maps/search/?api=1&query=26.1414336,-81.8000192",https://www.openstreetmap.org/node/9407861916
 "Miley's Diesel Service, Inc.",Boat sales,(239) 728-2217,,https://www.mileysdiesel.com,"10821 Sunset Plaza Circle, Fort Myers, FL 33908",Fort Myers,"https://www.google.com/maps/search/?api=1&query=26.4899551,-81.9307834",https://www.openstreetmap.org/node/12641867668
+Naples Marina Sales,Boat sales,,,https://www.naplesmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=26.0791465,-81.7234218",https://www.openstreetmap.org/node/5524144554
 PartsVu,Boat sales,(888) 625-5460,,https://www.partsvu.com/,"111 Triple Diamond Boulevard, Venice, FL 34275",Venice,"https://www.google.com/maps/search/?api=1&query=27.1461492,-82.4043859",https://www.openstreetmap.org/node/11486939216
 Pier 41 Marine,Boat sales,(239) 790-5797,,https://www.pier41marine.com/,"15650 S Tamiami Trail, Fort Myers, FL 33908",Fort Myers,"https://www.google.com/maps/search/?api=1&query=26.5131936,-81.864748",https://www.openstreetmap.org/node/11743403700
 Pinned Up Performance,Boat sales,(727) 717-3401,pinnedupperformance@gmail.com,,"6841 Amberjack Lane, Hudson, FL 34667",Hudson,"https://www.google.com/maps/search/?api=1&query=28.3468676,-82.7005723",https://www.openstreetmap.org/node/13740317686
 Plantation Boat Mart & Marina,Boat sales,(305) 852-5424,info@plantationboat.com,https://www.plantationboat.com/,"90400 Overseas Highway, Tavernier, FL 33070",Tavernier,"https://www.google.com/maps/search/?api=1&query=25.0013539,-80.5374475",https://www.openstreetmap.org/way/962266931
 Skip's Marina,Boat sales,(941) 777-4727,skipsbaitandtackle@yahoo.com,,"1990 Placida Road, Englewood, FL 34223",Englewood,"https://www.google.com/maps/search/?api=1&query=26.9315316,-82.3371595",https://www.openstreetmap.org/node/13622978100
+Tampa Bay Marine Center,Boat sales,,,www.TBmarinecenter.com,"8478 Seminole Boulevard, Seminole, FL 33772",Seminole,"https://www.google.com/maps/search/?api=1&query=27.8494942,-82.7875314",https://www.openstreetmap.org/way/280618826
+Walker's Yacht Sales,Boat sales,,,http://walkersmarine.com/,,,"https://www.google.com/maps/search/?api=1&query=26.5070699,-81.9430706",https://www.openstreetmap.org/node/5565776036
 West Marine,Boat sales,(386) 255-2013,wmCustomerService@westmarine.com,https://www.westmarine.com/stores/daytona-beach-fl-1313,"1300 International Speedway Boulevard, Daytona Beach, FL 32114",Daytona Beach,"https://www.google.com/maps/search/?api=1&query=29.1987693,-81.0553745",https://www.openstreetmap.org/node/3655764080
 West Marine,Boat sales,(941) 625-2700,,https://www.westmarine.com/stores/port-charlotte-fl-155/,"4265 Tamiami Trail, Port Charlotte, FL 33980",Port Charlotte,"https://www.google.com/maps/search/?api=1&query=26.9665132,-82.0793925",https://www.openstreetmap.org/node/12750666121
 WMF Watercraft & Marine,Boat sales,(239) 573-6256,,https://www.wmfwatercraft.com/,"1037 Southwest Pine Island Road, Cape Coral, FL 33991",Cape Coral,"https://www.google.com/maps/search/?api=1&query=26.6441944,-81.9960597",https://www.openstreetmap.org/node/10747621566
-15th Street Marina Marathon (at Boot Key Harbor),Marina / docks,(305) 393-0383,,https://www.bootkeymarina.com/,"890 15th Street Ocean, Marathon, FL 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7062565,-81.1082023",https://www.openstreetmap.org/node/8922500078
-All Water Excursions Marina,Marina / docks,(239) 594-0213,,https://allwaterexcursionsmarina.com/,"12345 Tamiami Trail N, Naples, FL 34110",Naples,"https://www.google.com/maps/search/?api=1&query=26.2829502,-81.8022954",https://www.openstreetmap.org/node/6417384864
-Battery Park Marina,Marina / docks,(850) 653-9319,,,,,"https://www.google.com/maps/search/?api=1&query=29.7230508,-84.9823741",https://www.openstreetmap.org/node/4744964936
-Blackfin Resort and Marina,Marina / docks,(305) 743-2393,,https://www.blackfinresort.com/,,,"https://www.google.com/maps/search/?api=1&query=24.7169137,-81.0829727",https://www.openstreetmap.org/node/8928642214
-Bud n'Mary's Marina,Marina / docks,,info@budnmarys.com,https://www.budnmarys.com/,"79851 Overseas Highway, Islamorada, FL 33036",Islamorada,"https://www.google.com/maps/search/?api=1&query=24.897636,-80.6576988",https://www.openstreetmap.org/way/965364676
-Caloosa Cove Resort & Marina,Marina / docks,(305) 664-4455,,https://caloosacove.com/,,,"https://www.google.com/maps/search/?api=1&query=24.8491927,-80.7377951",https://www.openstreetmap.org/node/8928678682
-City of Fort Myers Yacht Basin,Marina / docks,(239) 321-7080,,,,,"https://www.google.com/maps/search/?api=1&query=26.6476634,-81.8693038",https://www.openstreetmap.org/way/340302977
-Crescent Fish Camp,Marina / docks,(386) 698-2444,,https://outdooradventureretreats.com/crescent-fish-camp/,"100 Grove Avenue, Crescent City, FL 32112",Crescent City,"https://www.google.com/maps/search/?api=1&query=29.4436575,-81.5076064",https://www.openstreetmap.org/way/1184702288
-Duck Key Marina,Marina / docks,(305) 289-0161,BoatStorage@MarinaDuckKey.com,https://marinaduckkey.com/,"1149 Greenbriar Road, Duck Key, FL 33050",Duck Key,"https://www.google.com/maps/search/?api=1&query=24.7747609,-80.9158341",https://www.openstreetmap.org/node/3059042376
-Faro Blanco Resort & Yacht Club,Marina / docks,,marina@faroblancoresort.com,https://www.faroblancoresort.com/,,,"https://www.google.com/maps/search/?api=1&query=24.710771,-81.1049165",https://www.openstreetmap.org/way/960749909
-Freedom Boat Club,Marina / docks,(888) 781-7363,,https://freedomboatclub.com/locations/4-venice-fl/,"990 La Guna Drive, Venice, FL 34285",Venice,"https://www.google.com/maps/search/?api=1&query=27.105446,-82.4611904",https://www.openstreetmap.org/way/673173186
-Inn Marine,Marina / docks,(941) 964-4620,,https://the-gasparilla-inn.com/activities/marina/,"891 8th Street East, Boca Grande, FL 33921",Boca Grande,"https://www.google.com/maps/search/?api=1&query=26.7548844,-82.2602885",https://www.openstreetmap.org/way/964358197
-Loggerhead Marina Daytona Beach,Marina / docks,(386) 523-3100,,www.loggerheaddaytonabeach.com,"721 Ballough Road, Daytona Beach, 32114",Daytona Beach,"https://www.google.com/maps/search/?api=1&query=29.2259811,-81.0228833",https://www.openstreetmap.org/node/2841956238
-Loggerhead Marina Saint Pete,Marina / docks,(727) 867-2600,,https://loggerheadmarina.com/,"5821 32nd Way South, Saint Petersburg, FL 33712",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7136989,-82.6779452",https://www.openstreetmap.org/way/174953456
-Marlin Bay Resort & Marina,Marina / docks,(305) 731-2207,concierge@marlinbay.com,https://www.marlinbay.com/,"3800 Gulfview Avenue, FL 33050",,"https://www.google.com/maps/search/?api=1&query=24.7159004,-81.0908627",https://www.openstreetmap.org/node/8928610265
-O'Neil's Marina,Marina / docks,(727) 867-2585,,,"6701 Sunshine Skyway Lane South, Saint Petersburg, FL 33711",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7074959,-82.6805545",https://www.openstreetmap.org/way/473381997
-Ocean Club Marina Port Canaveral,Marina / docks,(321) 783-9001,,https://oceanclubmarina-pc.com/,"930 Mullet Road, Port Canaveral, 32920",Port Canaveral,"https://www.google.com/maps/search/?api=1&query=28.4071344,-80.629588",https://www.openstreetmap.org/node/2842015453
-Sea Dog Charters Marina,Marina / docks,(305) 743-8255,,https://seadogcharters.net,"1248 Overseas Highway, Marathon, FL 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7091585,-81.1117446",https://www.openstreetmap.org/node/3060499556
-Snake Creek Marina,Marina / docks,(305) 396-7724,,https://snakecreekmarinakeys.com/,"85401 Overseas Highway, Islamorada, FL 33036",Islamorada,"https://www.google.com/maps/search/?api=1&query=24.9504129,-80.5912068",https://www.openstreetmap.org/node/3058696699
-Snell Isle Marina,Marina / docks,(727) 895-8142,,https://www.spyc.com/,"1305 Snell Isle Boulevard NE, Saint Petersburg, FL 33704",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.799719,-82.610148",https://www.openstreetmap.org/node/1951987506
-Telemar Bay Marina,Marina / docks,(321) 773-2468,,https://telemarbaymarina.com/,"1399 Banana River Drive, Indian Harbour Beach, FL 32937",Indian Harbour Beach,"https://www.google.com/maps/search/?api=1&query=28.1492468,-80.6042632",https://www.openstreetmap.org/node/9345106335
-Uncle Henry's Marina,Marina / docks,(941) 964-0154,,http://www.unclehenrysmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=26.8032655,-82.2753503",https://www.openstreetmap.org/way/964050069
-Sandy Hook Yachts,Boat builder,,,,"2072 Davis Boulevard, Naples, FL 34104",Naples,"https://www.google.com/maps/search/?api=1&query=26.1379673,-81.7789323",https://www.openstreetmap.org/way/523951593
-Trident Pontoons,Boat builder,,,,,,"https://www.google.com/maps/search/?api=1&query=28.7662459,-81.7514748",https://www.openstreetmap.org/node/13423206895
-"Young Boats, Inc.",Boat builder,,,,,,"https://www.google.com/maps/search/?api=1&query=29.037232,-82.668107",https://www.openstreetmap.org/node/2326076177
-Allwater Marine,Boat sales,,,https://allwatermarine.com/,"2751 Avenue of the America, Englewood, FL 34224",Englewood,"https://www.google.com/maps/search/?api=1&query=26.9174485,-82.3090515",https://www.openstreetmap.org/node/13411413245
 Boat House,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1387893,-81.7737369",https://www.openstreetmap.org/node/14001331662
 Boater's World,Boat sales,,,,"5412 State Road 64 E, Bradenton, FL 34208",Bradenton,"https://www.google.com/maps/search/?api=1&query=27.4932139,-82.4936238",https://www.openstreetmap.org/way/547760369
 Boaters Paradise,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.6439102,-81.9958193",https://www.openstreetmap.org/node/8499225849
 Capstan Yachts,Boat sales,,,,"1100 6th Avenue South, Naples, FL 34102",Naples,"https://www.google.com/maps/search/?api=1&query=26.1401217,-81.7918785",https://www.openstreetmap.org/node/13230505773
 Dealer's Choice,Boat sales,,,,"5980 Lakehurst Drive, Orlando, FL",Orlando,"https://www.google.com/maps/search/?api=1&query=28.452092,-81.4616428",https://www.openstreetmap.org/way/141130579
 Endless Seas Boat Sales,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=27.8105495,-82.7563041",https://www.openstreetmap.org/node/4184366920
-Formula Boats,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1474355,-81.7931086",https://www.openstreetmap.org/node/13713863641
 Jet-Ski Repair,Boat sales,,,,1301 Pasadena Avenue South,,"https://www.google.com/maps/search/?api=1&query=27.7564542,-82.7373941",https://www.openstreetmap.org/way/243780501
 Kayaks,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7705916,-82.7293372",https://www.openstreetmap.org/node/2030817866
 Lake Area Watersports,Boat sales,,,,"829 State Highway 21, Melrose, FL 32666",Melrose,"https://www.google.com/maps/search/?api=1&query=29.7082923,-82.0442786",https://www.openstreetmap.org/way/749312825
 "LTD Motors Auto, RV, & Marine Center",Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=28.8934984,-82.5843792",https://www.openstreetmap.org/node/7044384283
 Madiera Marine Sales,Boat sales,,,,"6869 Park Boulevard, Pinellas Park",Pinellas Park,"https://www.google.com/maps/search/?api=1&query=27.8394723,-82.7332575",https://www.openstreetmap.org/way/274097975
-Marine Trading Post,Boat sales,,,https://marinetradingpost.com,"4694 Tamiami Trail, Port Charlotte, FL",Port Charlotte,"https://www.google.com/maps/search/?api=1&query=26.9603075,-82.0683645",https://www.openstreetmap.org/way/956109779
-MarineMax,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1409689,-81.791219",https://www.openstreetmap.org/node/13485359875
 MarineMax Fort Myers,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5385857,-81.9203657",https://www.openstreetmap.org/node/5563398749
 Mitchell Marine,Boat sales,,,,"6789 Ulmerton Road, Largo, FL 33771",Largo,"https://www.google.com/maps/search/?api=1&query=27.8945834,-82.7319894",https://www.openstreetmap.org/way/217914135
 Naples Boat Mart,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1610691,-81.7662084",https://www.openstreetmap.org/node/6751933958
-Naples Marina Sales,Boat sales,,,https://www.naplesmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=26.0791465,-81.7234218",https://www.openstreetmap.org/node/5524144554
 Quality Boats,Boat sales,,,,"17389 US 19, Largo, FL 33760",Largo,"https://www.google.com/maps/search/?api=1&query=27.930694,-82.729675",https://www.openstreetmap.org/node/1769622295
 Route 1 Motorsports,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=28.0049773,-80.5651931",https://www.openstreetmap.org/node/7343561418
 Saint Pete Powersports,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7649415,-82.6800367",https://www.openstreetmap.org/way/280373609
 San Carlos Marine,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.6569467,-81.8463067",https://www.openstreetmap.org/way/939609010
 Sea Base Ship Store,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=24.8509814,-80.7387526",https://www.openstreetmap.org/way/690293084
-Tampa Bay Marine Center,Boat sales,,,www.TBmarinecenter.com,"8478 Seminole Boulevard, Seminole, FL 33772",Seminole,"https://www.google.com/maps/search/?api=1&query=27.8494942,-82.7875314",https://www.openstreetmap.org/way/280618826
 The Boat Place,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5029342,-81.9440818",https://www.openstreetmap.org/node/5565776035
 Walker's Marine,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1387398,-81.769505",https://www.openstreetmap.org/node/14001331630
-Walker's Yacht Sales,Boat sales,,,http://walkersmarine.com/,,,"https://www.google.com/maps/search/?api=1&query=26.5070699,-81.9430706",https://www.openstreetmap.org/node/5565776036
-West Marine,Boat sales,,,,81984 overseas highway,,"https://www.google.com/maps/search/?api=1&query=25.9540211,-81.7226825",https://www.openstreetmap.org/node/4814486457
 West Marine,Boat sales,,,,"2109 Overseas Highway, Marathon, 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7086124,-81.1035697",https://www.openstreetmap.org/way/302535565
 West Marine,Boat sales,,,,"3905 West Cypress Street, Tampa, FL 33607",Tampa,"https://www.google.com/maps/search/?api=1&query=27.9525568,-82.5079927",https://www.openstreetmap.org/way/524314469
 World Cat,Boat sales,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1388697,-81.7713398",https://www.openstreetmap.org/node/14001331633
+15th Street Marina Marathon (at Boot Key Harbor),Marina / docks,(305) 393-0383,,https://www.bootkeymarina.com/,"890 15th Street Ocean, Marathon, FL 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7062565,-81.1082023",https://www.openstreetmap.org/node/8922500078
 A & B Marina,Marina / docks,,,https://www.aandbmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5618016,-81.8029104",https://www.openstreetmap.org/way/960082399
+All Water Excursions Marina,Marina / docks,(239) 594-0213,,https://allwaterexcursionsmarina.com/,"12345 Tamiami Trail N, Naples, FL 34110",Naples,"https://www.google.com/maps/search/?api=1&query=26.2829502,-81.8022954",https://www.openstreetmap.org/node/6417384864
+Banana Bay Resort & Marina,Marina / docks,,,https://www.bhotelsandresorts.com/banana-bay/,,,"https://www.google.com/maps/search/?api=1&query=24.7169478,-81.0845031",https://www.openstreetmap.org/node/8928599380
+Battery Park Marina,Marina / docks,(850) 653-9319,,,,,"https://www.google.com/maps/search/?api=1&query=29.7230508,-84.9823741",https://www.openstreetmap.org/node/4744964936
+Bayside Marina,Marina / docks,,,https://stores.basspro.com/us/fl/islamorada/81576-overseas-highway-22264191.html,,,"https://www.google.com/maps/search/?api=1&query=24.9155738,-80.6401628",https://www.openstreetmap.org/way/396013568
+Blackfin Resort and Marina,Marina / docks,(305) 743-2393,,https://www.blackfinresort.com/,,,"https://www.google.com/maps/search/?api=1&query=24.7169137,-81.0829727",https://www.openstreetmap.org/node/8928642214
+Bonita Bay Marina,Marina / docks,,,https://www.bonitabaymarina.net/,,,"https://www.google.com/maps/search/?api=1&query=26.3390025,-81.8280455",https://www.openstreetmap.org/node/1928559347
+Bradenton Yacht Club,Marina / docks,,,https://www.bradentonyachtclub.com/,"4307 Snead Island Road, Palmetto, 34211",Palmetto,"https://www.google.com/maps/search/?api=1&query=27.5251018,-82.6117991",https://www.openstreetmap.org/node/2390747716
+Bud n'Mary's Marina,Marina / docks,,info@budnmarys.com,https://www.budnmarys.com/,"79851 Overseas Highway, Islamorada, FL 33036",Islamorada,"https://www.google.com/maps/search/?api=1&query=24.897636,-80.6576988",https://www.openstreetmap.org/way/965364676
+Caloosa Cove Resort & Marina,Marina / docks,(305) 664-4455,,https://caloosacove.com/,,,"https://www.google.com/maps/search/?api=1&query=24.8491927,-80.7377951",https://www.openstreetmap.org/node/8928678682
+Captain Hook's Marina & Dive Center,Marina / docks,,,https://captainhooks.com/,"11833 Overseas Highway, Marathon, FL 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7299949,-81.0304125",https://www.openstreetmap.org/node/3060410108
+Captain Hook's Marina and Dive Center,Marina / docks,,,https://captainhooks.com/,,,"https://www.google.com/maps/search/?api=1&query=24.7298344,-81.0301698",https://www.openstreetmap.org/way/962640922
+Caribee Boat Sales & Marina,Marina / docks,,,https://www.caribeeboats.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9183449,-80.636662",https://www.openstreetmap.org/way/965392909
+City of Fort Myers Yacht Basin,Marina / docks,(239) 321-7080,,,,,"https://www.google.com/maps/search/?api=1&query=26.6476634,-81.8693038",https://www.openstreetmap.org/way/340302977
+Conch Harbor Marina,Marina / docks,,,https://conchharbormarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5628708,-81.8001401",https://www.openstreetmap.org/way/960095386
+Coral Bay Marina,Marina / docks,,,https://coral-bay-marina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9198675,-80.6356235",https://www.openstreetmap.org/node/3058734961
+Crescent Fish Camp,Marina / docks,(386) 698-2444,,https://outdooradventureretreats.com/crescent-fish-camp/,"100 Grove Avenue, Crescent City, FL 32112",Crescent City,"https://www.google.com/maps/search/?api=1&query=29.4436575,-81.5076064",https://www.openstreetmap.org/way/1184702288
+Davis Islands Yacht Club,Marina / docks,,,https://www.diyc.org/,"1315 Severn Avenue, Tampa, FL 33606",Tampa,"https://www.google.com/maps/search/?api=1&query=27.9083573,-82.4499825",https://www.openstreetmap.org/way/28937844
+Duck Key Marina,Marina / docks,(305) 289-0161,BoatStorage@MarinaDuckKey.com,https://marinaduckkey.com/,"1149 Greenbriar Road, Duck Key, FL 33050",Duck Key,"https://www.google.com/maps/search/?api=1&query=24.7747609,-80.9158341",https://www.openstreetmap.org/node/3059042376
+Faro Blanco Resort & Yacht Club,Marina / docks,,marina@faroblancoresort.com,https://www.faroblancoresort.com/,,,"https://www.google.com/maps/search/?api=1&query=24.710771,-81.1049165",https://www.openstreetmap.org/way/960749909
+Free Marina Day Slips,Marina / docks,,,https://www.sanfordfl.gov/residents/marina-day-slips-1500,,,"https://www.google.com/maps/search/?api=1&query=28.8152803,-81.2677706",https://www.openstreetmap.org/node/8934027328
+Freedom Boat Club,Marina / docks,(888) 781-7363,,https://freedomboatclub.com/locations/4-venice-fl/,"990 La Guna Drive, Venice, FL 34285",Venice,"https://www.google.com/maps/search/?api=1&query=27.105446,-82.4611904",https://www.openstreetmap.org/way/673173186
+Galleon Marina,Marina / docks,,,https://www.galleonmarinakeywest.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5624049,-81.8029456",https://www.openstreetmap.org/way/960077345
+Hawks Cay Resort Marina,Marina / docks,,,https://www.hawkscay.com/amenities/hawks-cay-marina,,,"https://www.google.com/maps/search/?api=1&query=24.7779182,-80.9131337",https://www.openstreetmap.org/node/8922857152
+Inn Marine,Marina / docks,(941) 964-4620,,https://the-gasparilla-inn.com/activities/marina/,"891 8th Street East, Boca Grande, FL 33921",Boca Grande,"https://www.google.com/maps/search/?api=1&query=26.7548844,-82.2602885",https://www.openstreetmap.org/way/964358197
+IslaMarina,Marina / docks,,,https://islamarinakeys.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9535923,-80.5855417",https://www.openstreetmap.org/way/965374081
+Key West Bight Marina,Marina / docks,,,https://www.keywestbightmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5619147,-81.8016413",https://www.openstreetmap.org/way/83579780
+Loggerhead Marina Daytona Beach,Marina / docks,(386) 523-3100,,www.loggerheaddaytonabeach.com,"721 Ballough Road, Daytona Beach, 32114",Daytona Beach,"https://www.google.com/maps/search/?api=1&query=29.2259811,-81.0228833",https://www.openstreetmap.org/node/2841956238
+Loggerhead Marina Saint Pete,Marina / docks,(727) 867-2600,,https://loggerheadmarina.com/,"5821 32nd Way South, Saint Petersburg, FL 33712",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7136989,-82.6779452",https://www.openstreetmap.org/way/174953456
+Marathon Marina & Boat Yard,Marina / docks,,,https://marathonmarinaresort.com,,,"https://www.google.com/maps/search/?api=1&query=24.7046204,-81.1121887",https://www.openstreetmap.org/way/962279125
+Marlin Bay Resort & Marina,Marina / docks,(305) 731-2207,concierge@marlinbay.com,https://www.marlinbay.com/,"3800 Gulfview Avenue, FL 33050",,"https://www.google.com/maps/search/?api=1&query=24.7159004,-81.0908627",https://www.openstreetmap.org/node/8928610265
+Maximo Marina - Saint Petersburg/Tampa,Marina / docks,,,http://www.igy-maximomarina.com/,,,"https://www.google.com/maps/search/?api=1&query=27.7243732,-82.6823903",https://www.openstreetmap.org/way/609719332
+Monroe Harbour Marina,Marina / docks,,,http://www.monroeharbour.com/,,,"https://www.google.com/maps/search/?api=1&query=28.8150946,-81.2668498",https://www.openstreetmap.org/way/964718295
+Municipal Marina,Marina / docks,,,https://www.dunedingov.com/index.aspx?page=151,,,"https://www.google.com/maps/search/?api=1&query=28.0124558,-82.7922848",https://www.openstreetmap.org/way/523224923
+O'Neil's Marina,Marina / docks,(727) 867-2585,,,"6701 Sunshine Skyway Lane South, Saint Petersburg, FL 33711",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7074959,-82.6805545",https://www.openstreetmap.org/way/473381997
+Oasis Marina,Marina / docks,,,https://www.oasismarinas.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5643553,-81.7375146",https://www.openstreetmap.org/relation/15741992
+Ocean Club Marina Port Canaveral,Marina / docks,(321) 783-9001,,https://oceanclubmarina-pc.com/,"930 Mullet Road, Port Canaveral, 32920",Port Canaveral,"https://www.google.com/maps/search/?api=1&query=28.4071344,-80.629588",https://www.openstreetmap.org/node/2842015453
+Oceans Edge Resort & Marina Key West,Marina / docks,,,https://www.oceansedgekeywest.com/,"5950 Peninsular Avenue, Key West, FL 33040",Key West,"https://www.google.com/maps/search/?api=1&query=24.5631903,-81.7298505",https://www.openstreetmap.org/way/415309284
+Pete's Pier Marina,Marina / docks,,,https://www.petespier.com,,,"https://www.google.com/maps/search/?api=1&query=28.8948545,-82.597468",https://www.openstreetmap.org/node/11813178785
+Plantation Yacht Harbor Marina,Marina / docks,,,https://www.islamorada.fl.us/,,,"https://www.google.com/maps/search/?api=1&query=24.9648616,-80.5687332",https://www.openstreetmap.org/way/965369753
+Port of the Islands Marina,Marina / docks,,,https://portoftheislandsmarina.com/contact-us.html,,,"https://www.google.com/maps/search/?api=1&query=25.9563367,-81.5107725",https://www.openstreetmap.org/way/1495968632
+Riviera Resort and Marina,Marina / docks,,,http://www.rivieraresort.net/,"2760 Botts Landing Road, 32720",,"https://www.google.com/maps/search/?api=1&query=28.9950347,-81.3673385",https://www.openstreetmap.org/way/158052908
+Sea Dog Charters Marina,Marina / docks,(305) 743-8255,,https://seadogcharters.net,"1248 Overseas Highway, Marathon, FL 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7091585,-81.1117446",https://www.openstreetmap.org/node/3060499556
+Snake Creek Marina,Marina / docks,(305) 396-7724,,https://snakecreekmarinakeys.com/,"85401 Overseas Highway, Islamorada, FL 33036",Islamorada,"https://www.google.com/maps/search/?api=1&query=24.9504129,-80.5912068",https://www.openstreetmap.org/node/3058696699
+Snell Isle Marina,Marina / docks,(727) 895-8142,,https://www.spyc.com/,"1305 Snell Isle Boulevard NE, Saint Petersburg, FL 33704",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.799719,-82.610148",https://www.openstreetmap.org/node/1951987506
+Stock Island Yacht Club & Marina,Marina / docks,,,https://spottswoodmarinas.com/stock-island-yacht-club/,,,"https://www.google.com/maps/search/?api=1&query=24.5627573,-81.7256669",https://www.openstreetmap.org/way/963243452
+Stock Island Yacht Club & Marina - Key West Harbour,Marina / docks,,,https://spottswoodmarinas.com/stock-island-yacht-club/,,,"https://www.google.com/maps/search/?api=1&query=24.5639781,-81.727061",https://www.openstreetmap.org/node/3067883937
+Sunset Marina,Marina / docks,,,http://www.sunsetmarinakw.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5788844,-81.7504577",https://www.openstreetmap.org/way/961607051
+Sunshine Key Marina,Marina / docks,,,http://www.rvonthego.com/florida/sunshine-key-rv-resort-marina/?utm_source=yext&utm_medium=directory&utm_campaign=Yext%20Directory%20Listing,,,"https://www.google.com/maps/search/?api=1&query=24.6726077,-81.2484539",https://www.openstreetmap.org/way/494903704
+Telemar Bay Marina,Marina / docks,(321) 773-2468,,https://telemarbaymarina.com/,"1399 Banana River Drive, Indian Harbour Beach, FL 32937",Indian Harbour Beach,"https://www.google.com/maps/search/?api=1&query=28.1492468,-80.6042632",https://www.openstreetmap.org/node/9345106335
+Uncle Henry's Marina,Marina / docks,(941) 964-0154,,http://www.unclehenrysmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=26.8032655,-82.2753503",https://www.openstreetmap.org/way/964050069
+Walker's Hideaway Marina of Marco Island,Marina / docks,,,http://www.walkersmarine.com/,,,"https://www.google.com/maps/search/?api=1&query=25.9568533,-81.7217535",https://www.openstreetmap.org/node/5482408657
+Whale Harbor Marina,Marina / docks,,,https://whaleharbormarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9364501,-80.6121534",https://www.openstreetmap.org/node/3058734957
 Adventure Yacht Harbor Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.1320088,-80.9618291",https://www.openstreetmap.org/way/488741075
 Anclote Village Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.1729981,-82.7856812",https://www.openstreetmap.org/way/1024429087
 Bahia Honda Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.6570071,-81.2783212",https://www.openstreetmap.org/way/323507973
-Banana Bay Resort & Marina,Marina / docks,,,https://www.bhotelsandresorts.com/banana-bay/,,,"https://www.google.com/maps/search/?api=1&query=24.7169478,-81.0845031",https://www.openstreetmap.org/node/8928599380
 Bay Pines Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.8153949,-82.765832",https://www.openstreetmap.org/node/2346847950
 Bayfront Marina (Turtle Beach Marina),Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.2201456,-82.5143547",https://www.openstreetmap.org/node/5930370144
-Bayside Marina,Marina / docks,,,https://stores.basspro.com/us/fl/islamorada/81576-overseas-highway-22264191.html,,,"https://www.google.com/maps/search/?api=1&query=28.3693258,-81.5581119",https://www.openstreetmap.org/way/295164413
-Bonita Bay Marina,Marina / docks,,,https://www.bonitabaymarina.net/,,,"https://www.google.com/maps/search/?api=1&query=26.3390025,-81.8280455",https://www.openstreetmap.org/node/1928559347
 Boot Key Harbor Marathon City Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.7097864,-81.091419",https://www.openstreetmap.org/way/589379803
-Bradenton Yacht Club,Marina / docks,,,https://www.bradentonyachtclub.com/,"4307 Snead Island Road, Palmetto, 34211",Palmetto,"https://www.google.com/maps/search/?api=1&query=27.5251018,-82.6117991",https://www.openstreetmap.org/node/2390747716
 Brookside Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1395604,-81.77943",https://www.openstreetmap.org/way/1537009881
 Burnt Store Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.7627883,-82.0586868",https://www.openstreetmap.org/relation/8721197
 Caloosa Yacht & Racquet Club Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5642781,-81.9184075",https://www.openstreetmap.org/node/2160330791
@@ -93,18 +117,12 @@ Calusa Island Marina & Yacht Club,Marina / docks,,,,,,"https://www.google.com/ma
 Cape Coral Yacht Club,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5428428,-81.9514457",https://www.openstreetmap.org/node/2807733725
 Cape Crossing Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.4072204,-80.7072541",https://www.openstreetmap.org/node/7029227637
 Cape Marina,Marina / docks,,,,"800 Scallop Drive, Cape Canaveral, FL 32920",Cape Canaveral,"https://www.google.com/maps/search/?api=1&query=28.4075422,-80.6274505",https://www.openstreetmap.org/node/6558595808
-Captain Hook's Marina & Dive Center,Marina / docks,,,https://captainhooks.com/,"11833 Overseas Highway, Marathon, FL 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7299949,-81.0304125",https://www.openstreetmap.org/node/3060410108
-Captain Hook's Marina and Dive Center,Marina / docks,,,https://captainhooks.com/,,,"https://www.google.com/maps/search/?api=1&query=24.7298344,-81.0301698",https://www.openstreetmap.org/way/962640922
 Captiva Landing Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5277351,-82.1896122",https://www.openstreetmap.org/way/1342265268
-Caribee Boat Sales & Marina,Marina / docks,,,https://www.caribeeboats.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9183449,-80.636662",https://www.openstreetmap.org/way/965392909
 Cassen Park Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.285295,-81.054519",https://www.openstreetmap.org/node/4733394326
 Coast Guard Basin,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.7102583,-81.1063322",https://www.openstreetmap.org/way/828589972
 Coconut Point Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.3987146,-81.8421983",https://www.openstreetmap.org/node/1810734479
-Conch Harbor Marina,Marina / docks,,,https://conchharbormarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5628708,-81.8001401",https://www.openstreetmap.org/way/960095386
 Contemporary Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.415277,-81.5730133",https://www.openstreetmap.org/way/344907369
-Coral Bay Marina,Marina / docks,,,https://coral-bay-marina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9198675,-80.6356235",https://www.openstreetmap.org/node/3058734961
 Cudjoe Gardens Marina And Dive Center,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.6580266,-81.5056317",https://www.openstreetmap.org/node/5104474553
-Davis Islands Yacht Club,Marina / docks,,,https://www.diyc.org/,"1315 Severn Avenue, Tampa, FL 33606",Tampa,"https://www.google.com/maps/search/?api=1&query=27.9083573,-82.4499825",https://www.openstreetmap.org/way/28937844
 Driftwood Marina & Storage,Marina / docks,,,,"13900 Overseas Highway, Marathon, 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7343614,-81.0121951",https://www.openstreetmap.org/node/3060410068
 Eau Gallie Yacht Basin,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.1258262,-80.6274617",https://www.openstreetmap.org/way/114585877
 Fisherman's Village Yacht Basin,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.9293387,-82.0639131",https://www.openstreetmap.org/way/622927495
@@ -113,24 +131,19 @@ Florida Bay Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=
 Florida Sea Base and Brinton Environmental Center,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.6619844,-81.4623467",https://www.openstreetmap.org/way/958732139
 Foot Hole Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.7226815,-84.9817982",https://www.openstreetmap.org/way/332416418
 Fort Wilderness Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.4131395,-81.5618635",https://www.openstreetmap.org/way/293250542
-Free Marina Day Slips,Marina / docks,,,https://www.sanfordfl.gov/residents/marina-day-slips-1500,,,"https://www.google.com/maps/search/?api=1&query=28.8152803,-81.2677706",https://www.openstreetmap.org/node/8934027328
 Galati Yacht basin,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.5266069,-82.721457",https://www.openstreetmap.org/relation/11488500
-Galleon Marina,Marina / docks,,,https://www.galleonmarinakeywest.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5624049,-81.8029456",https://www.openstreetmap.org/way/960077345
 Grassy Key Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.7684309,-80.9443875",https://www.openstreetmap.org/node/3060410048
 Gulfport Municipal Marina,Marina / docks,,,,"Gulfport, FL 33711",Gulfport,"https://www.google.com/maps/search/?api=1&query=27.7400103,-82.6958172",https://www.openstreetmap.org/node/588188174
 Halifax Harbor Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.2041299,-81.0125605",https://www.openstreetmap.org/node/6685567336
 Harbor Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.9670792,-82.8047447",https://www.openstreetmap.org/way/1461782610
 Harborage Marina,Marina / docks,,,,"Saint Petersburg, FL 33712;33701",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7598297,-82.6353792",https://www.openstreetmap.org/way/1463793070
 Harbour Village Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.10175,-80.9470981",https://www.openstreetmap.org/way/488742478
-Hawks Cay Resort Marina,Marina / docks,,,https://www.hawkscay.com/amenities/hawks-cay-marina,,,"https://www.google.com/maps/search/?api=1&query=24.7779182,-80.9131337",https://www.openstreetmap.org/node/8922857152
 Hernando Beach Marina,Marina / docks,,,,"Shoal Line Blvd, FL 34607",,"https://www.google.com/maps/search/?api=1&query=28.4900884,-82.6507817",https://www.openstreetmap.org/way/1253508548
 Home Port Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.0596234,-82.7768397",https://www.openstreetmap.org/way/773868275
 Hubbards Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7846277,-82.7823164",https://www.openstreetmap.org/way/231594757
 Hurricane Hole Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.5709967,-81.747301",https://www.openstreetmap.org/node/3060595253
 Inlet Harbor Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.0916495,-80.9387579",https://www.openstreetmap.org/way/399299551
-IslaMarina,Marina / docks,,,https://islamarinakeys.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9535923,-80.5855417",https://www.openstreetmap.org/way/965374081
 Isles Yacht Club,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.9246379,-82.0723239",https://www.openstreetmap.org/node/1821778067
-Key West Bight Marina,Marina / docks,,,https://www.keywestbightmarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5619147,-81.8016413",https://www.openstreetmap.org/way/83579780
 Laishley Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.9394607,-82.0515501",https://www.openstreetmap.org/node/1666521165
 Lake Fairview Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.595929,-81.414855",https://www.openstreetmap.org/way/933955759
 Lakeshore Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.8545536,-81.4114386",https://www.openstreetmap.org/node/1704093768
@@ -138,7 +151,6 @@ Lighthouse Boatyard,Marina / docks,,,,,,"https://www.google.com/maps/search/?api
 Lighthouse Point Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.8118553,-82.7598111",https://www.openstreetmap.org/node/4184366922
 Little Harbor Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7252832,-82.4698544",https://www.openstreetmap.org/node/7157067330
 Madeira Beach Municipal Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.8039736,-82.7959026",https://www.openstreetmap.org/node/2346797222
-Marathon Marina & Boat Yard,Marina / docks,,,https://marathonmarinaresort.com,,,"https://www.google.com/maps/search/?api=1&query=24.7046204,-81.1121887",https://www.openstreetmap.org/way/962279125
 Marco Island Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=25.9609741,-81.712715",https://www.openstreetmap.org/way/494897410
 Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.7640511,-85.4022291",https://www.openstreetmap.org/way/333319325
 Marina @ Bayshore Gardens,Marina / docks,,,,"6919 26th Street West, Bradenton, FL 34207",Bradenton,"https://www.google.com/maps/search/?api=1&query=27.4202866,-82.585908",https://www.openstreetmap.org/way/493012663
@@ -146,10 +158,7 @@ Marina del Palma,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&
 Marineland Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.6691195,-81.2150376",https://www.openstreetmap.org/way/333629430
 Marjorie Park Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.9307781,-82.4541047",https://www.openstreetmap.org/way/1463801814
 Marker 1 Marina,Marina / docks,,,,"Causeway Blvd, FL 34698",,"https://www.google.com/maps/search/?api=1&query=28.0503864,-82.7863152",https://www.openstreetmap.org/node/1948059616
-Maximo Marina - Saint Petersburg/Tampa,Marina / docks,,,http://www.igy-maximomarina.com/,,,"https://www.google.com/maps/search/?api=1&query=27.7243732,-82.6823903",https://www.openstreetmap.org/way/609719332
-Monroe Harbour Marina,Marina / docks,,,http://www.monroeharbour.com/,,,"https://www.google.com/maps/search/?api=1&query=28.8150946,-81.2668498",https://www.openstreetmap.org/way/964718295
 Mullock Creek Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.4734951,-81.8513687",https://www.openstreetmap.org/node/1928488392
-Municipal Marina,Marina / docks,,,https://www.dunedingov.com/index.aspx?page=151,,,"https://www.google.com/maps/search/?api=1&query=28.0124558,-82.7922848",https://www.openstreetmap.org/way/523224923
 Murray Marine,Marina / docks,,,,"5710 Overseas Highway, Key West, 33040",Key West,"https://www.google.com/maps/search/?api=1&query=24.5743233,-81.7355179",https://www.openstreetmap.org/node/3060595241
 Naples Boat Club,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1379145,-81.7910926",https://www.openstreetmap.org/way/1351010688
 Naples City Dock,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1322842,-81.7932941",https://www.openstreetmap.org/way/1341692593
@@ -158,24 +167,18 @@ Naples Yacht Club,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1
 Nature Coast Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.4907427,-82.6508412",https://www.openstreetmap.org/way/1253510074
 Nav-A-Gator Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.0612458,-82.002513",https://www.openstreetmap.org/node/1666444764
 New Smyrna Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.0321076,-80.9136961",https://www.openstreetmap.org/way/489168014
-Oasis Marina,Marina / docks,,,https://www.oasismarinas.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5643553,-81.7375146",https://www.openstreetmap.org/relation/15741992
-Oceans Edge Resort & Marina Key West,Marina / docks,,,https://www.oceansedgekeywest.com/,"5950 Peninsular Avenue, Key West, FL 33040",Key West,"https://www.google.com/maps/search/?api=1&query=24.5631903,-81.7298505",https://www.openstreetmap.org/way/415309284
 Old Wooden Bridge Guest Cottages & Marina LLC,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.6971725,-81.3482461",https://www.openstreetmap.org/way/493483962
 Olde Naples Seaport,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.1369364,-81.7908149",https://www.openstreetmap.org/way/1351010687
 Palm Coast Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.5768693,-81.19332",https://www.openstreetmap.org/way/1346449745
 Paradise Marina,Marina / docks,,,,"3900 Orange Grove Boulevard, Cape Coral, FL 33909",Cape Coral,"https://www.google.com/maps/search/?api=1&query=26.6284878,-81.9172576",https://www.openstreetmap.org/way/324084294
 Park Shore Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.197937,-81.8123155",https://www.openstreetmap.org/node/7120744951
-Pete's Pier Marina,Marina / docks,,,https://www.petespier.com,,,"https://www.google.com/maps/search/?api=1&query=28.8948545,-82.597468",https://www.openstreetmap.org/node/11813178785
 Pineland Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.6627372,-82.1535357",https://www.openstreetmap.org/way/180717971
 Piper's Marine,Marina / docks,,,,"Rocky Creek Dr, Tampa, FL 33615",Tampa,"https://www.google.com/maps/search/?api=1&query=27.996723,-82.5863879",https://www.openstreetmap.org/node/1834811276
-Plantation Yacht Harbor Marina,Marina / docks,,,https://www.islamorada.fl.us/,,,"https://www.google.com/maps/search/?api=1&query=24.9648616,-80.5687332",https://www.openstreetmap.org/way/965369753
 Pointe Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.9393175,-82.4546185",https://www.openstreetmap.org/node/10670157340
-Port of the Islands Marina,Marina / docks,,,https://portoftheislandsmarina.com/contact-us.html,,,"https://www.google.com/maps/search/?api=1&query=25.9563367,-81.5107725",https://www.openstreetmap.org/way/1495968632
 Regatta Pointe Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.5099673,-82.5756067",https://www.openstreetmap.org/way/495984054
 Riverhaven,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.7852478,-82.6209689",https://www.openstreetmap.org/way/149509334
 Riverhaven Marina,Marina / docks,,,,"S Riverview Cir, FL 34448",,"https://www.google.com/maps/search/?api=1&query=28.7851964,-82.6209702",https://www.openstreetmap.org/node/1884089288
 Riviera Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.8886769,-82.05372",https://www.openstreetmap.org/way/628714067
-Riviera Resort and Marina,Marina / docks,,,http://www.rivieraresort.net/,"2760 Botts Landing Road, 32720",,"https://www.google.com/maps/search/?api=1&query=28.9950347,-81.3673385",https://www.openstreetmap.org/way/158052908
 Robbie's,Marina / docks,,,,"77522 Overseas Highway, Islamorada, 33036",Islamorada,"https://www.google.com/maps/search/?api=1&query=24.8827405,-80.6907395",https://www.openstreetmap.org/node/3058878543
 Safety Harbor Marina,Marina / docks,,,,"Veterans Memorial Ln, Safety Harbor, FL 34695",Safety Harbor,"https://www.google.com/maps/search/?api=1&query=27.9892669,-82.6874995",https://www.openstreetmap.org/node/1768178168
 Santina Marina Plaza,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.4136773,-81.8992028",https://www.openstreetmap.org/way/613014422
@@ -185,16 +188,11 @@ Sea Love Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&q
 Shell Point Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5169042,-81.9991945",https://www.openstreetmap.org/way/177480246
 SpaceX Barge Dock,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.4170103,-80.6239972",https://www.openstreetmap.org/node/4202762203
 Spirit Snorkeling,Marina / docks,,,,"1400 Overseas Highway, Marathon, 33050",Marathon,"https://www.google.com/maps/search/?api=1&query=24.7085536,-81.1103322",https://www.openstreetmap.org/node/3067857966
-St Petersburg Municipal Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7704574,-82.629037",https://www.openstreetmap.org/relation/20041419
 St Petersburg Sailing Center,Marina / docks,,,,"250 2nd Avenue Southeast, St Petersburg, FL 33701",St Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7694894,-82.631504",https://www.openstreetmap.org/way/1463793048
 St Petersburg Yacht Club - Downtown Marina,Marina / docks,,,,"50 Bay Shore Drive Northeast, Saint Petersburg, FL 33701",Saint Petersburg,"https://www.google.com/maps/search/?api=1&query=27.7715315,-82.631746",https://www.openstreetmap.org/way/1463793061
 St. Petersburg Municipal Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7717283,-82.6279038",https://www.openstreetmap.org/way/226879742
 Starfish Snorkel,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=24.7085298,-81.1115461",https://www.openstreetmap.org/node/3060499557
 Sterling Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.4918618,-82.6504993",https://www.openstreetmap.org/way/1253511889
-Stock Island Yacht Club & Marina,Marina / docks,,,https://spottswoodmarinas.com/stock-island-yacht-club/,,,"https://www.google.com/maps/search/?api=1&query=24.5627573,-81.7256669",https://www.openstreetmap.org/way/963243452
-Stock Island Yacht Club & Marina - Key West Harbour,Marina / docks,,,https://spottswoodmarinas.com/stock-island-yacht-club/,,,"https://www.google.com/maps/search/?api=1&query=24.5639781,-81.727061",https://www.openstreetmap.org/node/3067883937
-Sunset Marina,Marina / docks,,,http://www.sunsetmarinakw.com/,,,"https://www.google.com/maps/search/?api=1&query=24.5788844,-81.7504577",https://www.openstreetmap.org/way/961607051
-Sunshine Key Marina,Marina / docks,,,http://www.rvonthego.com/florida/sunshine-key-rv-resort-marina/?utm_source=yext&utm_medium=directory&utm_campaign=Yext%20Directory%20Listing,,,"https://www.google.com/maps/search/?api=1&query=24.6726077,-81.2484539",https://www.openstreetmap.org/way/494903704
 Tarpon Point Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5391764,-81.9998993",https://www.openstreetmap.org/node/7107428774
 Tarpon Pointe Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.4974285,-82.556367",https://www.openstreetmap.org/way/895995819
 Tarpon Springs City Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.1558516,-82.7579354",https://www.openstreetmap.org/node/13333909077
@@ -204,11 +202,9 @@ Twin Dolphin Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api
 USF Haney Landing Sailing Cener,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7619064,-82.6348134",https://www.openstreetmap.org/way/1463793071
 Venetian Cove Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.8046919,-81.8716146",https://www.openstreetmap.org/way/560378213
 Vinoy Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7771572,-82.6288077",https://www.openstreetmap.org/way/1463793063
-Walker's Hideaway Marina of Marco Island,Marina / docks,,,http://www.walkersmarine.com/,,,"https://www.google.com/maps/search/?api=1&query=25.9568533,-81.7217535",https://www.openstreetmap.org/node/5482408657
 Walt Disney World Watercraft Marina & Drydock,Marina / docks,,,,"1280 Facilities Way, Bay Lake, FL 32836",Bay Lake,"https://www.google.com/maps/search/?api=1&query=28.424702,-81.5736382",https://www.openstreetmap.org/way/578705041
 Waterfront,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=27.7133521,-82.68303",https://www.openstreetmap.org/way/473381996
 Wekiva Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.7135391,-81.4443333",https://www.openstreetmap.org/node/1817980857
-Whale Harbor Marina,Marina / docks,,,https://whaleharbormarina.com/,,,"https://www.google.com/maps/search/?api=1&query=24.9364501,-80.6121534",https://www.openstreetmap.org/node/3058734957
 Wilderness Lodge Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=28.4093956,-81.5702804",https://www.openstreetmap.org/way/344805079
 Yacht Harbor Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=29.5759948,-81.1885031",https://www.openstreetmap.org/way/1383214862
 Yacht Harbour Marina,Marina / docks,,,,,,"https://www.google.com/maps/search/?api=1&query=26.5478091,-82.1967413",https://www.openstreetmap.org/way/1342263875

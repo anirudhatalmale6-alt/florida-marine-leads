@@ -84,21 +84,45 @@ for el in data['elements']:
         'OSM': f"https://www.openstreetmap.org/{el['type']}/{el['id']}",
     })
 
-# Same company mapped as both a node and an area is common; collapse on name+city.
-seen, uniq = {}, []
-for r in rows:
-    key = (r['Company'].lower().strip(), r['City'].lower().strip())
-    if key in seen:
-        keep = seen[key]
-        for f in ('Phone', 'Email', 'Website', 'Address'):
-            if not keep[f] and r[f]:
-                keep[f] = r[f]
-        continue
-    seen[key] = r
-    uniq.append(r)
+# The same yard is routinely mapped twice — once as a node, once as the building
+# outline — and the two copies rarely carry the same tags. Collapse them.
+#
+# Match on name, but only merge across a city difference when one side has no
+# city at all. "MarineMax" with no city and "MarineMax" in Naples are the same
+# record split in two; "MarineMax Fort Myers" and "MarineMax Naples" are two
+# real branches and must both survive.
+def norm(name):
+    return re.sub(r'[^a-z0-9]+', ' ', name.lower()).strip()
 
-# Anything with a phone or an email first, then alphabetical.
-uniq.sort(key=lambda r: (not (r['Phone'] or r['Email']), r['Category'], r['Company'].lower()))
+buckets = {}
+for r in rows:
+    buckets.setdefault(norm(r['Company']), []).append(r)
+
+uniq = []
+for group in buckets.values():
+    # Richest record first so it becomes the one we merge into.
+    group.sort(key=lambda r: -sum(bool(r[f]) for f in ('Phone', 'Email', 'Website', 'Address', 'City')))
+    kept = []
+    for r in group:
+        target = None
+        for k in kept:
+            if not r['City'] or not k['City'] or r['City'].lower() == k['City'].lower():
+                target = k
+                break
+        if target is None:
+            kept.append(r)
+            continue
+        for f in ('Phone', 'Email', 'Website', 'Address', 'City'):
+            if not target[f] and r[f]:
+                target[f] = r[f]
+    uniq.extend(kept)
+
+# Rows carrying a way to make contact come first — a name-only row is a lead to
+# research, not a lead to call, and it should not sit at the top of the page.
+def contactable(r):
+    return bool(r['Phone'] or r['Email'] or r['Website'])
+
+uniq.sort(key=lambda r: (r['Category'], not contactable(r), r['Company'].lower()))
 
 cols = ['Company', 'Category', 'Phone', 'Email', 'Website', 'Address', 'City', 'Map', 'OSM']
 wb = Workbook()
