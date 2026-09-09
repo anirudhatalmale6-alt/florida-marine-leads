@@ -12,9 +12,8 @@ employees' names or direct numbers.
 
 ## 1. The starter list — already built, nothing to run
 
-`data/florida-marine-businesses.xlsx` — spreadsheet
-`data/florida-marine-businesses.pdf` — printable directory
-`data/florida-marine-businesses.csv` — plain text
+Each list comes as `.xlsx`, `.csv` and a printable `.pdf`, plus a
+`-call-sheet.pdf` holding only the entries that have a phone number.
 
 `data/florida-boat-dealers.*` — **boat sellers only**: 102 companies, 46 with a
 phone. This is the one the client asked for; no marinas, rentals, tackle or dive
@@ -27,7 +26,7 @@ rental/storage, 53 tackle, 39 dive shops, 4 clubs.
 The query casts a wide net — the explicit marine tags, plus anything with
 marine, boat, yacht, marina, outboard or nautic in its name that is tagged as a
 shop, trade, office or industrial site. That last part is what takes it from
-209 entries to 519: plenty of dealers are filed under a generic category and
+209 entries to 639: plenty of businesses are filed under a generic category and
 are invisible to a tag-only search. Name matches are filtered so that the
 county Marine Patrol office and "Marina Gift Shop" do not come along with them.
 
@@ -139,12 +138,15 @@ script.
 
 ```sh
 cd osm
-sh fetch_osm.sh          # queries the public Overpass API
-python3 build_osm.py     # writes the spreadsheet
+sh fetch_osm.sh                        # queries the public Overpass API
+python3 build_osm.py fl.json           # every marine business
+python3 build_osm.py fl.json --sales-only   # boat sellers only
 ```
 
-The public Overpass servers are frequently busy and return 504s; the script
-tries three different mirrors before giving up. Just run it again if it fails.
+The public Overpass servers are frequently busy and return 504s. The full union
+query fails on all of them, so `fetch_osm.sh` pulls one lighter query per
+selector and caches each part — an interrupted run picks up where it stopped.
+Just run it again if a part fails.
 
 ## Filling in missing phone numbers
 
@@ -158,8 +160,8 @@ customers to ring. It checks `robots.txt` first and skips any site that
 disallows it, waits a second between sites, tries the home page and then the
 usual contact paths, and stops at the first number it finds. It adds a
 **Phone source** column so it is always visible which numbers came from
-OpenStreetMap and which were looked up. On this dataset it added 54 numbers
-across 97 candidate sites and 9 sites declined.
+OpenStreetMap and which were looked up. On the full marine list it added 59
+numbers across 116 candidate sites, with 12 declining via robots.txt.
 
 It is deliberately fussy about what counts as a phone number, because the first
 version was not and produced rubbish:
