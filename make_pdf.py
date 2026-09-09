@@ -26,13 +26,29 @@ SLATE = colors.HexColor('#4A5A6A')
 RULE = colors.HexColor('#C9D3DC')
 BAND = colors.HexColor('#F2F5F8')
 
-src = sys.argv[1] if len(sys.argv) > 1 else 'data/florida-marine-businesses.csv'
-out = sys.argv[2] if len(sys.argv) > 2 else os.path.splitext(src)[0] + '.pdf'
+argv = [a for a in sys.argv[1:] if a != '--calls-only']
+calls_only = '--calls-only' in sys.argv
+
+src = argv[0] if argv else 'data/florida-marine-businesses.csv'
+out = argv[1] if len(argv) > 1 else os.path.splitext(src)[0] + '.pdf'
 
 rows = list(csv.DictReader(open(src, encoding='utf-8')))
 if not rows:
     raise SystemExit(f'{src} has no rows')
+
+total_in = len(rows)
+if calls_only:
+    # A call sheet with nothing to call is worse than no row at all.
+    rows = [r for r in rows if r.get('Phone')]
+    if not rows:
+        raise SystemExit(f'{src} has no rows with a phone number')
 have = set(rows[0].keys())
+
+# The two builders emit different columns, and the provenance note on page one
+# has to match whichever one produced this file — printing "compiled from
+# OpenStreetMap" on top of Google data would be a lie on a document that gets
+# passed on to someone else.
+SOURCE = 'places' if 'Rating' in have or 'County' in have else 'osm'
 
 # Column plan: (heading, csv field, width in inches)
 plan = [('Company', 'Company', 2.35)]
@@ -115,25 +131,47 @@ n_phone = sum(1 for r in rows if r.get('Phone'))
 n_email = sum(1 for r in rows if r.get('Email'))
 n_site = sum(1 for r in rows if r.get('Website'))
 
-story.append(Paragraph('Florida Marine Businesses', h1))
+story.append(Paragraph(
+    'Florida Marine Businesses &mdash; Call Sheet' if calls_only
+    else 'Florida Marine Businesses', h1))
 story.append(Paragraph(
     f'{len(rows)} companies &nbsp;·&nbsp; {n_phone} with a phone number'
     + (f' &nbsp;·&nbsp; {n_email} with an email' if 'Email' in have else '')
     + f' &nbsp;·&nbsp; {n_site} with a website', sub))
 story.append(Spacer(1, 7))
 n_contact = sum(1 for r in rows if r.get('Phone') or r.get('Email') or r.get('Website'))
-story.append(Paragraph(
-    '<b>About this list.</b> Compiled from OpenStreetMap, an open licensed '
-    'business dataset. It covers the whole state, but it is not a complete '
-    'register of every marine business in Florida &mdash; it contains what has '
-    'been mapped, which is strong on locations and thin on contact details. '
-    f'<b>{n_contact} of the {len(rows)} entries carry a phone, email or website; '
-    f'the remaining {len(rows) - n_contact} are a name and a location only</b> '
-    'and are listed after the contactable ones in each section. Phone numbers '
-    'have been checked against the North American dialling rules; anything that '
-    'could not be a working number has been left blank rather than printed. '
-    'A dash means the detail is not published in this source, not that it does '
-    'not exist.', note))
+if calls_only:
+    story.append(Paragraph(
+        f'<b>Every company on this sheet has a phone number.</b> These are the '
+        f'{len(rows)} of {total_in} entries in the source list that publish one. '
+        f'The other {total_in - len(rows)} are omitted here on purpose &mdash; '
+        'they are in the full directory, but there is nothing on them to dial. '
+        'Numbers have been checked against the North American dialling rules, so '
+        'nothing on this page is a placeholder or a malformed entry.', note))
+else:
+    if SOURCE == 'places':
+        story.append(Paragraph(
+            '<b>About this list.</b> Built from the Google Places API, which is '
+            'licensed business data rather than anything scraped off a website. '
+            f'{n_contact} of the {len(rows)} entries carry a phone number or a '
+            'website. There is no email column because the Places API has no '
+            'email field &mdash; the website is the route to a contact address. '
+            'A dash means the detail is not published, not that it does not '
+            'exist.', note))
+    else:
+        story.append(Paragraph(
+            '<b>About this list.</b> Compiled from OpenStreetMap, an open '
+            'licensed business dataset. It covers the whole state, but it is '
+            'not a complete register of every marine business in Florida '
+            '&mdash; it contains what has been mapped, which is strong on '
+            'locations and thin on contact details. '
+            f'<b>{n_contact} of the {len(rows)} entries carry a phone, email or '
+            f'website; the remaining {len(rows) - n_contact} are a name and a '
+            'location only</b> and are listed after the contactable ones in each '
+            'section. Phone numbers have been checked against the North American '
+            'dialling rules; anything that could not be a working number has been '
+            'left blank rather than printed. A dash means the detail is not '
+            'published in this source, not that it does not exist.', note))
 story.append(Spacer(1, 4))
 
 groups = defaultdict(list)
@@ -153,7 +191,8 @@ for cat in cats:
     data = [[Paragraph(h, head) for h, _, _ in plan]]
     for r in items:
         data.append([para(r.get(f, ''), f, bold=(f == 'Company')) for _, f, _ in plan])
-    t = Table(data, colWidths=[w * inch for _, _, w in plan], repeatRows=1)
+    t = Table(data, colWidths=[w * inch for _, _, w in plan], repeatRows=1,
+              hAlign='LEFT')
     style = [
         ('BACKGROUND', (0, 0), (-1, 0), NAVY),
         ('VALIGN', (0, 0), (-1, -1), 'TOP'),
