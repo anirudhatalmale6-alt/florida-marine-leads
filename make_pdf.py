@@ -118,6 +118,15 @@ def decorate(canvas, doc):
     canvas.restoreState()
 
 
+# The per-column widths above are a wish list; which columns exist depends on
+# the source file. Left unchecked the OpenStreetMap layout overflows the page
+# and silently clips the last column mid-word ("Port Charlott"), so scale the
+# whole set to fit whatever width is actually available.
+AVAIL = PAGE[0] - LM - RM
+_want = sum(w for _, _, w in plan) * inch
+_scale = min(1.0, AVAIL / _want)
+COL_W = [w * inch * _scale for _, _, w in plan]
+
 doc = BaseDocTemplate(out, pagesize=PAGE, leftMargin=LM, rightMargin=RM,
                       topMargin=TM, bottomMargin=BM,
                       title='Florida Marine Businesses',
@@ -191,8 +200,7 @@ for cat in cats:
     data = [[Paragraph(h, head) for h, _, _ in plan]]
     for r in items:
         data.append([para(r.get(f, ''), f, bold=(f == 'Company')) for _, f, _ in plan])
-    t = Table(data, colWidths=[w * inch for _, _, w in plan], repeatRows=1,
-              hAlign='LEFT')
+    t = Table(data, colWidths=COL_W, repeatRows=1, hAlign='LEFT')
     style = [
         ('BACKGROUND', (0, 0), (-1, 0), NAVY),
         ('VALIGN', (0, 0), (-1, -1), 'TOP'),

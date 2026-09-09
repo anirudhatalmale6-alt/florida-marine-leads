@@ -1,12 +1,16 @@
-[out:json][timeout:300];
+[out:json][timeout:280];
 area["ISO3166-2"="US-FL"][admin_level=4]->.fl;
 (
-  nwr["shop"="boat"](area.fl);
-  nwr["shop"="yachts"](area.fl);
-  nwr["shop"="watercraft"](area.fl);
-  nwr["shop"="boat_parts"](area.fl);
-  nwr["craft"="boatbuilder"](area.fl);
+  nwr["shop"~"^(boat|yachts|watercraft|boat_parts|boat_repair|marine|chandlery|outboard)$"](area.fl);
+  nwr["craft"~"^(boatbuilder|shipwright)$"](area.fl);
   nwr["leisure"="marina"](area.fl);
-  nwr["shop"="boat_repair"](area.fl);
+  nwr["amenity"="boat_rental"](area.fl);
+  nwr["industrial"~"^(shipyard|boatyard)$"](area.fl);
+  nwr["man_made"="shipyard"](area.fl);
+  nwr["office"="yacht_broker"](area.fl);
+  nwr["shop"]["name"~"marine|boat|yacht|marina|outboard|nautic",i](area.fl);
+  nwr["craft"]["name"~"marine|boat|yacht|marina|outboard|nautic",i](area.fl);
+  nwr["office"]["name"~"marine|boat|yacht|marina|outboard|nautic",i](area.fl);
+  nwr["industrial"]["name"~"marine|boat|yacht|marina|outboard|nautic",i](area.fl);
 );
 out center tags;

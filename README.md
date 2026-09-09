@@ -3,8 +3,10 @@
 Two ways to build a list of Florida boat sales companies, marinas and marine
 service businesses — company name, address, phone, website.
 
-Both use licensed data sources with a proper API. Neither scrapes anyone's
-website, and neither collects individual employees' names or direct numbers.
+Built from licensed data sources with a proper API, plus one narrow step that
+reads a company's own published phone number off its own contact page. Nothing
+here collects email addresses in bulk, and nothing here collects individual
+employees' names or direct numbers.
 
 ---
 
@@ -14,15 +16,21 @@ website, and neither collects individual employees' names or direct numbers.
 `data/florida-marine-businesses.pdf` — printable directory
 `data/florida-marine-businesses.csv` — plain text
 
-209 companies pulled from OpenStreetMap: 51 boat sales / builders and 158
-marinas and dock operators. Every row has a name, most have an address and a
-map link.
+519 companies pulled from OpenStreetMap: 89 boat sales, 10 builders, 304
+marinas and dock operators, 96 rental/storage operations. Every row has a name,
+most have an address and a map link.
 
-**Be aware of the catch:** OpenStreetMap is excellent at *where things are* and
-poor at *how to phone them*, at least in the US. Only 39 of the 209 have a phone
-number and only 9 have an email — 78 carry any contact detail at all, and the
-other 131 are a name and a location. It is a good map of who exists and where;
-it is not a finished call list.
+The query casts a wide net — the explicit marine tags, plus anything with
+marine, boat, yacht, marina, outboard or nautic in its name that is tagged as a
+shop, trade, office or industrial site. That last part is what takes it from
+209 entries to 519: plenty of dealers are filed under a generic category and
+are invisible to a tag-only search. Name matches are filtered so that the
+county Marine Patrol office and "Marina Gift Shop" do not come along with them.
+
+**Phone coverage: 200 of the 519.** OpenStreetMap itself supplies 146 of those.
+The other 54 come from `find_phones.py`, which visits the company's own website
+and reads the number they publish for customers to call (see below). It is
+still not every marine business in Florida — that needs the Places run.
 
 It is also crowd-sourced, so the odd entry is junk — this pull contained one
 business with `941-555-0198`, which is the number range reserved for use in
@@ -128,6 +136,35 @@ python3 build_osm.py     # writes the spreadsheet
 The public Overpass servers are frequently busy and return 504s; the script
 tries three different mirrors before giving up. Just run it again if it fails.
 
+## Filling in missing phone numbers
+
+```sh
+python3 find_phones.py data/florida-marine-businesses.csv
+```
+
+For companies already in the list that published a website but no phone number,
+this opens that company's own site and reads the number they put there for
+customers to ring. It checks `robots.txt` first and skips any site that
+disallows it, waits a second between sites, tries the home page and then the
+usual contact paths, and stops at the first number it finds. It adds a
+**Phone source** column so it is always visible which numbers came from
+OpenStreetMap and which were looked up. On this dataset it added 54 numbers
+across 97 candidate sites and 9 sites declined.
+
+It is deliberately fussy about what counts as a phone number, because the first
+version was not and produced rubbish:
+
+- The area code must be one Florida actually uses. A "first digit 2–9" check
+  let through `(749)`, `(200)` and `(399)`, none of which are assignable.
+- Taking the first `tel:` link on the page is not enough. Rickenbacker Marina's
+  contact page carries both `tel:+1 212 425 8617` and `tel:+1 305 361 1900`,
+  New York first — first-match gave a Miami marina a New York number. Every
+  candidate on the page is collected and a Florida number is preferred.
+- If the same number comes back for two different companies it belongs to
+  neither, and both are dropped. That caught two shared template numbers.
+
+Blank beats wrong on a call sheet.
+
 ## Making the PDF
 
 ```sh
@@ -143,10 +180,11 @@ the OpenStreetMap one or the Google Places one.
 
 ## What this deliberately does not do
 
-No email harvesting off company websites, and no individual employees — no
-service managers by name, no direct extensions. Business contact details are
-fair game; compiling named people and their numbers into a marketing list is a
-different thing, and it is not something I build.
+No bulk email harvesting, and no individual employees — no service managers by
+name, no direct extensions. A company's own switchboard number, published on
+its own site so that customers will call it, is business contact information
+and fair game. Compiling named people and their direct numbers into a marketing
+list is a different thing, and it is not something I build.
 
 For the service manager, calling the main number and asking for them by role
 gets you a warmer contact than a scraped name would anyway.

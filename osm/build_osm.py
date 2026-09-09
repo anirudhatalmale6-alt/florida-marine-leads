@@ -5,21 +5,59 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 
+# Tags that say "this is a marine business" on their own.
 CATEGORY = {
     ('shop', 'boat'): 'Boat sales',
-    ('shop', 'yachts'): 'Yacht sales',
-    ('shop', 'watercraft'): 'Watercraft sales',
+    ('shop', 'yachts'): 'Boat sales',
+    ('shop', 'watercraft'): 'Boat sales',
+    ('shop', 'marine'): 'Boat sales',
+    ('shop', 'outboard'): 'Boat sales',
+    ('office', 'yacht_broker'): 'Boat sales',
     ('shop', 'boat_parts'): 'Parts & chandlery',
+    ('shop', 'chandlery'): 'Parts & chandlery',
     ('shop', 'boat_repair'): 'Repair / service',
+    ('craft', 'shipwright'): 'Repair / service',
     ('craft', 'boatbuilder'): 'Boat builder',
+    ('industrial', 'shipyard'): 'Boat builder',
+    ('industrial', 'boatyard'): 'Boat builder',
+    ('man_made', 'shipyard'): 'Boat builder',
     ('leisure', 'marina'): 'Marina / docks',
+    ('amenity', 'boat_rental'): 'Rental / storage',
+    ('amenity', 'boat_storage'): 'Rental / storage',
 }
 
+# The query also sweeps anything with marine/boat/yacht/marina in its NAME that
+# carries a shop, craft, office or industrial tag. That widens the net a long
+# way, and it also drags in "Marina Gift Shop", "Boat House Convenience" and the
+# county's Marine Patrol office. A name match only counts when the business
+# category is generic enough that it could plausibly be a marine trader.
+NAME_OK = {
+    ('shop', 'yes'), ('shop', 'trade'), ('shop', 'hardware'),
+    ('shop', 'car_repair'), ('shop', 'motorcycle'), ('shop', 'fishing'),
+    ('shop', 'sports'), ('shop', 'rental'), ('shop', 'storage_rental'),
+    ('office', 'yes'), ('office', 'company'), ('office', 'estate_agent'),
+    ('craft', 'yes'), ('craft', 'metal_construction'), ('craft', 'painter'),
+    ('craft', 'carpenter'), ('craft', 'electrician'), ('craft', 'sailmaker'),
+    ('industrial', 'yes'), ('industrial', 'factory'), ('industrial', 'warehouse'),
+}
+
+MARINE_NAME = re.compile(r'(?i)\b(marine|marina|boat|boats|yacht|yachts|'
+                         r'outboard|nautic\w*|marittim\w*|ship\w*)\b')
+
+
 def category(tags):
+    """Return a category, or None if this is not a marine business."""
     for (k, v), label in CATEGORY.items():
         if tags.get(k) == v:
             return label
-    return 'Other marine'
+    # No marine tag — this row is here purely because its name matched.
+    name = tags.get('name') or ''
+    if not MARINE_NAME.search(name):
+        return None
+    for k in ('shop', 'craft', 'office', 'industrial'):
+        if tags.get(k) and (k, tags[k]) in NAME_OK:
+            return 'Other marine'
+    return None
 
 def dialable(d):
     """d is 10 digits. Reject anything that cannot be a real US number.
@@ -70,11 +108,14 @@ for el in data['elements']:
     name = t.get('name') or t.get('operator') or ''
     if not name:
         continue  # an unnamed dock is no use as a lead
+    cat = category(t)
+    if cat is None:
+        continue  # matched the name sweep but is not a marine business
     lat = el.get('lat') or (el.get('center') or {}).get('lat')
     lon = el.get('lon') or (el.get('center') or {}).get('lon')
     rows.append({
         'Company': name,
-        'Category': category(t),
+        'Category': cat,
         'Phone': phone(t),
         'Email': first(t, 'email', 'contact:email'),
         'Website': first(t, 'website', 'contact:website', 'url'),
